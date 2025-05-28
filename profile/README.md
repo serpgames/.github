@@ -8,5 +8,7 @@ Welcome to SERP Games.
 
 <details>
   <summary>Partners</summary>
+
+[SERP](https://github.com/serpcompany) | [SERP AI](https://github.com/serp-ai) | [SERP University](https://github.com/serpuniversity) | [SERP Best](https://github.com/serpbest) | [Devin Schumacher](https://github.com/devinschumacher) | [University of Guns](https://github.com/universityofguns) | [Boxing Undefeated](https://github.com/boxingundefeated) | [Daft FM](https://github.com/daftfm)
+
 </details>
-[SERP](https://github.com/serpcompany) | [SERP AI](https://github.com/serp-ai) | [SERP University](https://github.com/serpuniversity) | [SERP Best](https://github.com/serpbest) | [Devin Schumacher](https://github.com/devinschumacher) | [University of Guns](https://github.com/universityofguns) | [Boxing Undefeated](https://github.com/)boxingundefeated | [Daft FM](https://github.com/daftfm)
