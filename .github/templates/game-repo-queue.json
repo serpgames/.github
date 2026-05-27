@@ -1,0 +1,8379 @@
+[
+  {
+    "slug": "badicecream-2",
+    "repo_name": "bad-ice-cream-2-game",
+    "game_name": "BadIceCream 2",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "arcade",
+      "maze"
+    ]
+  },
+  {
+    "slug": "level-devil",
+    "repo_name": "level-devil-game",
+    "game_name": "Level Devil",
+    "category": "platformer",
+    "tags": [
+      "platformer",
+      "skill",
+      "trap"
+    ]
+  },
+  {
+    "slug": "traffic-escape",
+    "repo_name": "traffic-escape-game",
+    "game_name": "Traffic Escape",
+    "category": "car",
+    "tags": [
+      "car",
+      "new",
+      "popular",
+      "puzzle",
+      "simulation"
+    ]
+  },
+  {
+    "slug": "crossy-road",
+    "repo_name": "crossy-road-game",
+    "game_name": "Crossy Road",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "road-crossing"
+    ]
+  },
+  {
+    "slug": "tunnel-rush",
+    "repo_name": "tunnel-rush-game",
+    "game_name": "Tunnel Rush",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "runner",
+      "3d"
+    ]
+  },
+  {
+    "slug": "temple-run-2-topvaz",
+    "repo_name": "temple-run-2-topvaz-game",
+    "game_name": "Temple Run 2 - topVAZ",
+    "category": "runner",
+    "tags": [
+      "runner",
+      "adventure",
+      "3d"
+    ]
+  },
+  {
+    "slug": "doodle-jump",
+    "repo_name": "doodle-jump-game",
+    "game_name": "Doodle Jump",
+    "category": "skill",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "slug": "flappy-bird",
+    "repo_name": "flappy-bird-game",
+    "game_name": "Flappy Bird",
+    "category": "animal",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "slug": "slope-2",
+    "repo_name": "slope-2-game",
+    "game_name": "Slope 2",
+    "category": "3d",
+    "tags": [
+      "3d",
+      "popular",
+      "running"
+    ]
+  },
+  {
+    "slug": "cookie-clicker",
+    "repo_name": "cookie-clicker-game",
+    "game_name": "Cookie Clicker",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "popular",
+      "simulation"
+    ]
+  },
+  {
+    "slug": "slope",
+    "repo_name": "slope-game",
+    "game_name": "Slope",
+    "category": "3d",
+    "tags": [
+      "3d",
+      "popular",
+      "running",
+      "skill"
+    ]
+  },
+  {
+    "slug": "tiny-fishing",
+    "repo_name": "tiny-fishing-game",
+    "game_name": "Tiny Fishing",
+    "category": "animal",
+    "tags": [
+      "animal",
+      "idle",
+      "popular",
+      "sports"
+    ]
+  },
+  {
+    "slug": "2048",
+    "repo_name": "2048-game",
+    "game_name": "2048",
+    "category": "puzzle",
+    "tags": [
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "geometry-dash",
+    "repo_name": "geometry-dash-game",
+    "game_name": "Geometry Dash",
+    "category": "running",
+    "tags": [
+      "popular",
+      "running"
+    ]
+  },
+  {
+    "slug": "tetris-flash",
+    "repo_name": "tetris-flash-game",
+    "game_name": "Tetris Flash",
+    "category": "puzzle",
+    "tags": [
+      "popular",
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "minesweeper",
+    "repo_name": "minesweeper-game",
+    "game_name": "Minesweeper",
+    "category": "puzzle",
+    "tags": [
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "dinosaur-game",
+    "repo_name": "dinosaur-game-game",
+    "game_name": "Dinosaur Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "running",
+      "skill"
+    ]
+  },
+  {
+    "slug": "among-us",
+    "repo_name": "among-us-game",
+    "game_name": "Among Us",
+    "category": "puzzle",
+    "tags": [
+      "popular",
+      "puzzle",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "wordle-unlimited",
+    "repo_name": "wordle-unlimited-game",
+    "game_name": "Wordle Unlimited",
+    "category": "puzzle",
+    "tags": [
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "duck-life",
+    "repo_name": "duck-life-game",
+    "game_name": "Duck Life",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "animal",
+      "girls",
+      "skill"
+    ]
+  },
+  {
+    "slug": "duck-life-4",
+    "repo_name": "duck-life-4-game",
+    "game_name": "Duck Life 4",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "animal",
+      "girls",
+      "skill"
+    ]
+  },
+  {
+    "slug": "basket-bros",
+    "repo_name": "basket-bros-game",
+    "game_name": "Basket Bros",
+    "category": "2-player",
+    "tags": [
+      "2-player",
+      "popular",
+      "sports"
+    ]
+  },
+  {
+    "slug": "tanuki-sunset",
+    "repo_name": "tanuki-sunset-game",
+    "game_name": "Tanuki Sunset",
+    "category": "3d",
+    "tags": [
+      "3d",
+      "popular",
+      "sports"
+    ]
+  },
+  {
+    "slug": "stack",
+    "repo_name": "stack-game",
+    "game_name": "Stack",
+    "category": "skill",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "slug": "scrap-metal",
+    "repo_name": "scrap-metal-game",
+    "game_name": "Scrap Metal",
+    "category": "car",
+    "tags": [
+      "car"
+    ]
+  },
+  {
+    "slug": "jelly-truck",
+    "repo_name": "jelly-truck-game",
+    "game_name": "Jelly Truck",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "skill"
+    ]
+  },
+  {
+    "slug": "rocket-soccer-derby",
+    "repo_name": "rocket-soccer-derby-game",
+    "game_name": "Rocket Soccer Derby",
+    "category": "car",
+    "tags": [
+      "car",
+      "popular",
+      "simulation",
+      "sports"
+    ]
+  },
+  {
+    "slug": "draw-the-hill",
+    "repo_name": "draw-the-hill-game",
+    "game_name": "Draw The Hill",
+    "category": "car",
+    "tags": [
+      "car"
+    ]
+  },
+  {
+    "slug": "stack-ball",
+    "repo_name": "stack-ball-game",
+    "game_name": "Stack Ball",
+    "category": "3d",
+    "tags": [
+      "3d"
+    ]
+  },
+  {
+    "slug": "adventure-drivers",
+    "repo_name": "adventure-drivers-game",
+    "game_name": "Adventure Drivers",
+    "category": "action",
+    "tags": [
+      "action",
+      "adventure",
+      "car",
+      "racing"
+    ]
+  },
+  {
+    "slug": "duck-life-2",
+    "repo_name": "duck-life-2-game",
+    "game_name": "Duck Life 2",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "animal",
+      "girls",
+      "skill"
+    ]
+  },
+  {
+    "slug": "duck-life-3-evolution",
+    "repo_name": "duck-life-3-evolution-game",
+    "game_name": "Duck Life 3 Evolution",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "animal",
+      "girls",
+      "skill"
+    ]
+  },
+  {
+    "slug": "gun-mayhem",
+    "repo_name": "gun-mayhem-game",
+    "game_name": "Gun Mayhem",
+    "category": "shooting",
+    "tags": [
+      "shooting"
+    ]
+  },
+  {
+    "slug": "basket-and-ball",
+    "repo_name": "basket-and-ball-game",
+    "game_name": "Basket And Ball",
+    "category": "sports",
+    "tags": [
+      "sports"
+    ]
+  },
+  {
+    "slug": "tag",
+    "repo_name": "tag-game",
+    "game_name": "Tag",
+    "category": "2-player",
+    "tags": [
+      "2-player",
+      "board",
+      "popular",
+      "running",
+      "skill",
+      "sports"
+    ]
+  },
+  {
+    "slug": "breaking-the-bank",
+    "repo_name": "breaking-the-bank-game",
+    "game_name": "Breaking The Bank",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "stickman"
+    ]
+  },
+  {
+    "slug": "bloons-tower-defense-1",
+    "repo_name": "bloons-tower-defense-1-game",
+    "game_name": "Bloons Tower Defense 1",
+    "category": "strategy",
+    "tags": [
+      "strategy"
+    ]
+  },
+  {
+    "slug": "2048-multitask",
+    "repo_name": "2048-multitask-game",
+    "game_name": "2048 Multitask",
+    "category": "puzzle",
+    "tags": [
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "vex-6",
+    "repo_name": "vex-6-game",
+    "game_name": "Vex 6",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "running",
+      "stickman"
+    ]
+  },
+  {
+    "slug": "paper-minecraft",
+    "repo_name": "paper-minecraft-game",
+    "game_name": "Paper Minecraft",
+    "category": "skill",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "slug": "adventures-with-anxiety",
+    "repo_name": "adventures-with-anxiety-game",
+    "game_name": "Adventures With Anxiety!",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "story",
+      "interactive-fiction"
+    ]
+  },
+  {
+    "slug": "the-freak-circus",
+    "repo_name": "the-freak-circus-game",
+    "game_name": "The Freak Circus",
+    "category": "visual-novel",
+    "tags": [
+      "visual-novel",
+      "horror",
+      "romance",
+      "mature"
+    ]
+  },
+  {
+    "slug": "death-loop",
+    "repo_name": "death-loop-game",
+    "game_name": "Death Loop",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "horror",
+      "story"
+    ]
+  },
+  {
+    "slug": "transparent-girl",
+    "repo_name": "transparent-girl-game",
+    "game_name": "Transparent Girl",
+    "category": "visual-novel",
+    "tags": [
+      "visual-novel"
+    ]
+  },
+  {
+    "slug": "twilight-observer",
+    "repo_name": "twilight-observer-game",
+    "game_name": "Twilight Observer",
+    "category": "adventure",
+    "tags": [
+      "adventure"
+    ]
+  },
+  {
+    "slug": "pokepath-td",
+    "repo_name": "pokepath-td-game",
+    "game_name": "PokePath TD",
+    "category": "strategy",
+    "tags": [
+      "tower-defense"
+    ]
+  },
+  {
+    "slug": "kolydr",
+    "repo_name": "kolydr-game",
+    "game_name": "KOLYDR",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "action",
+      "gems"
+    ]
+  },
+  {
+    "slug": "warlords-penance",
+    "repo_name": "warlords-penance-game",
+    "game_name": "Warlord's Penance",
+    "category": "action",
+    "tags": [
+      "action",
+      "dungeon-crawler",
+      "adventure"
+    ]
+  },
+  {
+    "slug": "taco-stand",
+    "repo_name": "taco-stand-game",
+    "game_name": "Taco Stand",
+    "category": "horror",
+    "tags": [
+      "horror",
+      "simulation",
+      "management"
+    ]
+  },
+  {
+    "slug": "assessment-examination",
+    "repo_name": "assessment-examination-game",
+    "game_name": "Assessment Examination",
+    "category": "horror",
+    "tags": [
+      "horror",
+      "quiz",
+      "psychological"
+    ]
+  },
+  {
+    "slug": "how-to-date-an-entity",
+    "repo_name": "how-to-date-an-entity-game",
+    "game_name": "How to Date an Entity",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "dating",
+      "story"
+    ]
+  },
+  {
+    "slug": "nsmb-mario-vs-luigi",
+    "repo_name": "nsmb-mario-vs-luigi-game",
+    "game_name": "NSMB Mario Vs Luigi - KKT's Gooffy Little Mod",
+    "category": "platformer",
+    "tags": [
+      "platformer",
+      "mario",
+      "multiplayer"
+    ]
+  },
+  {
+    "slug": "a-dark-room",
+    "repo_name": "a-dark-room-game",
+    "game_name": "A Dark Room",
+    "category": "adventure",
+    "tags": [
+      "adventure",
+      "text",
+      "story"
+    ]
+  },
+  {
+    "slug": "word-mastermind",
+    "repo_name": "word-mastermind-game",
+    "game_name": "Word Mastermind",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "word"
+    ]
+  },
+  {
+    "slug": "antimatter-dimensions",
+    "repo_name": "antimatter-dimensions-game",
+    "game_name": "Antimatter Dimensions",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "incremental"
+    ]
+  },
+  {
+    "slug": "kittens-game",
+    "repo_name": "kittens-game-game",
+    "game_name": "Kittens Game",
+    "category": "strategy",
+    "tags": [
+      "strategy",
+      "resource-management"
+    ]
+  },
+  {
+    "slug": "wordle",
+    "repo_name": "wordle-game",
+    "game_name": "Wordle",
+    "category": "puzzle",
+    "tags": [
+      "word",
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "sudoku",
+    "repo_name": "sudoku-game",
+    "game_name": "Sudoku",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "maze-game",
+    "repo_name": "maze-game-game",
+    "game_name": "Maze Game",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "navigation",
+      "logic"
+    ]
+  },
+  {
+    "slug": "tic-tac-toe",
+    "repo_name": "tic-tac-toe-game",
+    "game_name": "Tic Tac Toe",
+    "category": "board",
+    "tags": [
+      "strategy",
+      "classic",
+      "logic"
+    ]
+  },
+  {
+    "slug": "connect-4",
+    "repo_name": "connect-4-game",
+    "game_name": "Connect 4",
+    "category": "board",
+    "tags": [
+      "strategy",
+      "classic",
+      "logic"
+    ]
+  },
+  {
+    "slug": "word-search",
+    "repo_name": "word-search-game",
+    "game_name": "Word Search",
+    "category": "word",
+    "tags": [
+      "puzzle",
+      "educational",
+      "classic"
+    ]
+  },
+  {
+    "slug": "sliding-puzzle",
+    "repo_name": "sliding-puzzle-game",
+    "game_name": "Sliding Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "latin-square",
+    "repo_name": "latin-square-game",
+    "game_name": "Latin Square",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "number",
+      "math"
+    ]
+  },
+  {
+    "slug": "magic-square",
+    "repo_name": "magic-square-game",
+    "game_name": "Magic Square",
+    "category": "puzzle",
+    "tags": [
+      "math",
+      "number",
+      "logic"
+    ]
+  },
+  {
+    "slug": "n-queens",
+    "repo_name": "n-queens-game",
+    "game_name": "N-Queens",
+    "category": "board",
+    "tags": [
+      "chess",
+      "logic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "knights-tour",
+    "repo_name": "knights-tour-game",
+    "game_name": "Knight's Tour",
+    "category": "board",
+    "tags": [
+      "chess",
+      "logic",
+      "math"
+    ]
+  },
+  {
+    "slug": "memory-match",
+    "repo_name": "memory-match-game",
+    "game_name": "Memory Match",
+    "category": "puzzle",
+    "tags": [
+      "memory",
+      "classic",
+      "logic"
+    ]
+  },
+  {
+    "slug": "hangman",
+    "repo_name": "hangman-game",
+    "game_name": "Hangman",
+    "category": "word",
+    "tags": [
+      "classic",
+      "educational",
+      "logic"
+    ]
+  },
+  {
+    "slug": "lights-out",
+    "repo_name": "lights-out-game",
+    "game_name": "Lights Out",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "classic"
+    ]
+  },
+  {
+    "slug": "simon-says",
+    "repo_name": "simon-says-game",
+    "game_name": "Simon Says",
+    "category": "skill",
+    "tags": [
+      "memory",
+      "reflex",
+      "classic"
+    ]
+  },
+  {
+    "slug": "reaction-time",
+    "repo_name": "reaction-time-game",
+    "game_name": "Reaction Time",
+    "category": "skill",
+    "tags": [
+      "reflex",
+      "challenge"
+    ]
+  },
+  {
+    "slug": "whack-a-mole",
+    "repo_name": "whack-a-mole-game",
+    "game_name": "Whack-a-Mole",
+    "category": "skill",
+    "tags": [
+      "arcade",
+      "reflex",
+      "classic"
+    ]
+  },
+  {
+    "slug": "mastermind",
+    "repo_name": "mastermind-game",
+    "game_name": "Mastermind",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "bulls-and-cows",
+    "repo_name": "bulls-and-cows-game",
+    "game_name": "Bulls and Cows",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "nim",
+    "repo_name": "nim-game",
+    "game_name": "Nim",
+    "category": "strategy",
+    "tags": [
+      "logic",
+      "classic",
+      "board"
+    ]
+  },
+  {
+    "slug": "dots-and-boxes",
+    "repo_name": "dots-and-boxes-game",
+    "game_name": "Dots and Boxes",
+    "category": "board",
+    "tags": [
+      "strategy",
+      "classic",
+      "puzzle"
+    ]
+  },
+  {
+    "slug": "hex",
+    "repo_name": "hex-game",
+    "game_name": "Hex",
+    "category": "strategy",
+    "tags": [
+      "board",
+      "logic",
+      "classic"
+    ]
+  },
+  {
+    "slug": "set-game",
+    "repo_name": "set-game-game",
+    "game_name": "Set Game",
+    "category": "puzzle",
+    "tags": [
+      "pattern",
+      "logic",
+      "classic"
+    ]
+  },
+  {
+    "slug": "tangram",
+    "repo_name": "tangram-game",
+    "game_name": "Tangram",
+    "category": "puzzle",
+    "tags": [
+      "pattern",
+      "classic",
+      "logic"
+    ]
+  },
+  {
+    "slug": "binary-puzzle",
+    "repo_name": "binary-puzzle-game",
+    "game_name": "Binary Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "number",
+      "math"
+    ]
+  },
+  {
+    "slug": "sokoban",
+    "repo_name": "sokoban-game",
+    "game_name": "Sokoban",
+    "category": "puzzle",
+    "tags": [
+      "logic",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "dodge-the-blocks",
+    "repo_name": "dodge-the-blocks-game",
+    "game_name": "Dodge The Blocks",
+    "category": "running",
+    "tags": [
+      "running",
+      "dodge",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "maiolike-block-puzzle",
+    "repo_name": "maiolike-block-puzzle-game",
+    "game_name": "Maiolike Block Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "maiolike",
+      "block",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rock-paper-scissors",
+    "repo_name": "rock-paper-scissors-game",
+    "game_name": "Rock Paper Scissors",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "rock",
+      "paper",
+      "scissors",
+      "browser"
+    ]
+  },
+  {
+    "slug": "15-puzzle",
+    "repo_name": "15-puzzle-game",
+    "game_name": "15 Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "15",
+      "sliding",
+      "browser"
+    ]
+  },
+  {
+    "slug": "avoid-the-blocks",
+    "repo_name": "avoid-the-blocks-game",
+    "game_name": "Avoid The Blocks",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "avoid",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "balloon-jumper",
+    "repo_name": "balloon-jumper-game",
+    "game_name": "Balloon Jumper",
+    "category": "running",
+    "tags": [
+      "running",
+      "balloon",
+      "jumper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "block-breaker",
+    "repo_name": "block-breaker-game",
+    "game_name": "Block Breaker",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "block",
+      "breaker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "block-drop-solver",
+    "repo_name": "block-drop-solver-game",
+    "game_name": "Block Drop Solver",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "block",
+      "drop",
+      "solver",
+      "browser"
+    ]
+  },
+  {
+    "slug": "block-stack",
+    "repo_name": "block-stack-game",
+    "game_name": "Block Stack",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "block",
+      "stack",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bubble-shooter",
+    "repo_name": "bubble-shooter-game",
+    "game_name": "Bubble Shooter",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "bubble",
+      "shooter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "code-unlock",
+    "repo_name": "code-unlock-game",
+    "game_name": "Code Unlock",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "code",
+      "unlock",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cozy-blocks",
+    "repo_name": "cozy-blocks-game",
+    "game_name": "Cozy Blocks",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "cozy",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "maze-runner",
+    "repo_name": "maze-runner-game",
+    "game_name": "Maze Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "maze",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mole-whacking",
+    "repo_name": "mole-whacking-game",
+    "game_name": "Mole Whacking",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "mole",
+      "whacking",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rhythm-catch",
+    "repo_name": "rhythm-catch-game",
+    "game_name": "Rhythm Catch",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rhythm",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rhythm-catcher",
+    "repo_name": "rhythm-catcher-game",
+    "game_name": "Rhythm Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rhythm",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rhythm-tap",
+    "repo_name": "rhythm-tap-game",
+    "game_name": "Rhythm Tap",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rhythm",
+      "tap",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rock-scissor-paper",
+    "repo_name": "rock-scissor-paper-game",
+    "game_name": "Rock Scissor Paper",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "rock",
+      "scissor",
+      "paper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadow-catcher",
+    "repo_name": "shadow-catcher-game",
+    "game_name": "Shadow Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "shadow",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadow-puzzle-2d",
+    "repo_name": "shadow-puzzle-2d-game",
+    "game_name": "Shadow Puzzle 2D",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "shadow",
+      "browser"
+    ]
+  },
+  {
+    "slug": "space-shooter",
+    "repo_name": "space-shooter-game",
+    "game_name": "Space Shooter",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "space",
+      "shooter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-the-bubble",
+    "repo_name": "tap-the-bubble-game",
+    "game_name": "Tap The Bubble",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "bubble",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tower-of-hanoi",
+    "repo_name": "tower-of-hanoi-game",
+    "game_name": "Tower Of Hanoi",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "tower",
+      "hanoi",
+      "browser"
+    ]
+  },
+  {
+    "slug": "whack-a-mole-game",
+    "repo_name": "whack-a-mole-game-game",
+    "game_name": "Whack A Mole Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "whack",
+      "mole",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-chain-puzzle",
+    "repo_name": "word-chain-puzzle-game",
+    "game_name": "Word Chain Puzzle",
+    "category": "word",
+    "tags": [
+      "word",
+      "chain",
+      "puzzle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "8-ball-pool",
+    "repo_name": "8-ball-pool-game",
+    "game_name": "Ball Pool",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "ball",
+      "pool",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aim-arena",
+    "repo_name": "aim-arena-game",
+    "game_name": "Aim Arena",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "aim",
+      "arena",
+      "browser"
+    ]
+  },
+  {
+    "slug": "arrow-dodge",
+    "repo_name": "arrow-dodge-game",
+    "game_name": "Arrow Dodge",
+    "category": "running",
+    "tags": [
+      "running",
+      "arrow",
+      "dodge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "asteroids",
+    "repo_name": "asteroids-game",
+    "game_name": "Asteroids",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "asteroids",
+      "browser"
+    ]
+  },
+  {
+    "slug": "atari-breakout",
+    "repo_name": "atari-breakout-game",
+    "game_name": "Atari Breakout",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "atari",
+      "breakout",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aurora-glow-catcher",
+    "repo_name": "aurora-glow-catcher-game",
+    "game_name": "Aurora Glow Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "aurora",
+      "glow",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "balloon-burst",
+    "repo_name": "balloon-burst-game",
+    "game_name": "Balloon Burst",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "balloon",
+      "burst",
+      "browser"
+    ]
+  },
+  {
+    "slug": "balloon-pop",
+    "repo_name": "balloon-pop-game",
+    "game_name": "Balloon Pop",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "balloon",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bingo-caller",
+    "repo_name": "bingo-caller-game",
+    "game_name": "Bingo Caller",
+    "category": "board",
+    "tags": [
+      "board",
+      "bingo",
+      "caller",
+      "browser"
+    ]
+  },
+  {
+    "slug": "blackjack",
+    "repo_name": "blackjack-game",
+    "game_name": "Blackjack",
+    "category": "board",
+    "tags": [
+      "board",
+      "blackjack",
+      "browser"
+    ]
+  },
+  {
+    "slug": "blink-catch",
+    "repo_name": "blink-catch-game",
+    "game_name": "Blink Catch",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "blink",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bloom-catch",
+    "repo_name": "bloom-catch-game",
+    "game_name": "Bloom Catch",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bloom",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "boom-runner",
+    "repo_name": "boom-runner-game",
+    "game_name": "Boom Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "boom",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "brain-lock",
+    "repo_name": "brain-lock-game",
+    "game_name": "Brain Lock",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "brain",
+      "lock",
+      "browser"
+    ]
+  },
+  {
+    "slug": "breakout",
+    "repo_name": "breakout-game",
+    "game_name": "Breakout",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "breakout",
+      "browser"
+    ]
+  },
+  {
+    "slug": "brick-breaker",
+    "repo_name": "brick-breaker-game",
+    "game_name": "Brick Breaker",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "brick",
+      "breaker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bridge-puzzle",
+    "repo_name": "bridge-puzzle-game",
+    "game_name": "Bridge Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "bridge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bubble-harmony",
+    "repo_name": "bubble-harmony-game",
+    "game_name": "Bubble Harmony",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bubble",
+      "harmony",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bubble-pop-adventure",
+    "repo_name": "bubble-pop-adventure-game",
+    "game_name": "Bubble Pop Adventure",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bubble",
+      "adventure",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bubble-sonata",
+    "repo_name": "bubble-sonata-game",
+    "game_name": "Bubble Sonata",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bubble",
+      "sonata",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bubble-wrap-popper",
+    "repo_name": "bubble-wrap-popper-game",
+    "game_name": "Bubble Wrap Popper",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bubble",
+      "wrap",
+      "popper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cannon",
+    "repo_name": "cannon-game",
+    "game_name": "Cannon",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "cannon",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-or-crash",
+    "repo_name": "catch-or-crash-game",
+    "game_name": "Catch Or Crash",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "crash",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-or-miss",
+    "repo_name": "catch-or-miss-game",
+    "game_name": "Catch Or Miss",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "miss",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-the-ball",
+    "repo_name": "catch-the-ball-game",
+    "game_name": "Catch The Ball",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "ball",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-the-dot",
+    "repo_name": "catch-the-dot-game",
+    "game_name": "Catch The Dot",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-the-falling-emoji",
+    "repo_name": "catch-the-falling-emoji-game",
+    "game_name": "Catch The Falling Emoji",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "falling",
+      "emoji",
+      "browser"
+    ]
+  },
+  {
+    "slug": "catch-the-stars",
+    "repo_name": "catch-the-stars-game",
+    "game_name": "Catch The Stars",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "catch",
+      "stars",
+      "browser"
+    ]
+  },
+  {
+    "slug": "circuit-connect",
+    "repo_name": "circuit-connect-game",
+    "game_name": "Circuit Connect",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "circuit",
+      "connect",
+      "browser"
+    ]
+  },
+  {
+    "slug": "city-builder",
+    "repo_name": "city-builder-game",
+    "game_name": "City Builder",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "city",
+      "builder",
+      "browser"
+    ]
+  },
+  {
+    "slug": "clue-connecter",
+    "repo_name": "clue-connecter-game",
+    "game_name": "Clue Connecter",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "clue",
+      "connecter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "code-breaker-mini",
+    "repo_name": "code-breaker-mini-game",
+    "game_name": "Code Breaker Mini",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "code",
+      "breaker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "code-flow",
+    "repo_name": "code-flow-game",
+    "game_name": "Code Flow",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "code",
+      "flow",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-catch",
+    "repo_name": "color-catch-game",
+    "game_name": "Color Catch",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-sequence-memory",
+    "repo_name": "color-sequence-memory-game",
+    "game_name": "Color Sequence Memory",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "sequence",
+      "memory",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-squid-puzzle",
+    "repo_name": "color-squid-puzzle-game",
+    "game_name": "Color Squid Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "squid",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-switch-maze",
+    "repo_name": "color-switch-maze-game",
+    "game_name": "Color Switch Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "switch",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "connect-four",
+    "repo_name": "connect-four-game",
+    "game_name": "Connect Four",
+    "category": "board",
+    "tags": [
+      "board",
+      "connect",
+      "four",
+      "browser"
+    ]
+  },
+  {
+    "slug": "connect-four-game",
+    "repo_name": "connect-four-game-game",
+    "game_name": "Connect Four Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "connect",
+      "four",
+      "browser"
+    ]
+  },
+  {
+    "slug": "constellation-connect",
+    "repo_name": "constellation-connect-game",
+    "game_name": "Constellation Connect",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "constellation",
+      "connect",
+      "browser"
+    ]
+  },
+  {
+    "slug": "direction-maze",
+    "repo_name": "direction-maze-game",
+    "game_name": "Direction Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "direction",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "doodle-jump-game",
+    "repo_name": "doodle-jump-game-game",
+    "game_name": "Doodle Jump Game",
+    "category": "running",
+    "tags": [
+      "running",
+      "doodle",
+      "jump",
+      "browser"
+    ]
+  },
+  {
+    "slug": "echo-maze",
+    "repo_name": "echo-maze-game",
+    "game_name": "Echo Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "echo",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-connect",
+    "repo_name": "emoji-connect-game",
+    "game_name": "Emoji Connect",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "emoji",
+      "connect",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-match-game",
+    "repo_name": "emoji-match-game-game",
+    "game_name": "Emoji Match Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "emoji",
+      "match",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-reaction",
+    "repo_name": "emoji-reaction-game",
+    "game_name": "Emoji Reaction",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emoji",
+      "reaction",
+      "browser"
+    ]
+  },
+  {
+    "slug": "endless-runner",
+    "repo_name": "endless-runner-game",
+    "game_name": "Endless Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "endless",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "energy-connect",
+    "repo_name": "energy-connect-game",
+    "game_name": "Energy Connect",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "energy",
+      "connect",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fast-finger-maze",
+    "repo_name": "fast-finger-maze-game",
+    "game_name": "Fast Finger Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "fast",
+      "finger",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "firefly-catcher",
+    "repo_name": "firefly-catcher-game",
+    "game_name": "Firefly Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "firefly",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flappy-bird-game",
+    "repo_name": "flappy-bird-game-game",
+    "game_name": "Flappy Bird Game",
+    "category": "running",
+    "tags": [
+      "running",
+      "flappy",
+      "bird",
+      "browser"
+    ]
+  },
+  {
+    "slug": "frogger",
+    "repo_name": "frogger-game",
+    "game_name": "Frogger",
+    "category": "running",
+    "tags": [
+      "running",
+      "frogger",
+      "browser"
+    ]
+  },
+  {
+    "slug": "frogger-clone",
+    "repo_name": "frogger-clone-game",
+    "game_name": "Frogger Clone",
+    "category": "running",
+    "tags": [
+      "running",
+      "frogger",
+      "clone",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fruit-catcher",
+    "repo_name": "fruit-catcher-game",
+    "game_name": "Fruit Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "fruit",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ghost-tap",
+    "repo_name": "ghost-tap-game",
+    "game_name": "Ghost Tap",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "ghost",
+      "tap",
+      "browser"
+    ]
+  },
+  {
+    "slug": "glow-tap",
+    "repo_name": "glow-tap-game",
+    "game_name": "Glow Tap",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "glow",
+      "tap",
+      "browser"
+    ]
+  },
+  {
+    "slug": "glow-trail-maze",
+    "repo_name": "glow-trail-maze-game",
+    "game_name": "Glow Trail Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "glow",
+      "trail",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-flip-runner",
+    "repo_name": "gravity-flip-runner-game",
+    "game_name": "Gravity Flip Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "gravity",
+      "flip",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "horizon-runner",
+    "repo_name": "horizon-runner-game",
+    "game_name": "Horizon Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "horizon",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "image-runner",
+    "repo_name": "image-runner-game",
+    "game_name": "Image Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "image",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "island-connector",
+    "repo_name": "island-connector-game",
+    "game_name": "Island Connector",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "island",
+      "connector",
+      "browser"
+    ]
+  },
+  {
+    "slug": "jump-counter",
+    "repo_name": "jump-counter-game",
+    "game_name": "Jump Counter",
+    "category": "running",
+    "tags": [
+      "running",
+      "jump",
+      "counter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "jump-rope",
+    "repo_name": "jump-rope-game",
+    "game_name": "Jump Rope",
+    "category": "running",
+    "tags": [
+      "running",
+      "jump",
+      "rope",
+      "browser"
+    ]
+  },
+  {
+    "slug": "jump-tag",
+    "repo_name": "jump-tag-game",
+    "game_name": "Jump Tag",
+    "category": "running",
+    "tags": [
+      "running",
+      "jump",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lava-jumper",
+    "repo_name": "lava-jumper-game",
+    "game_name": "Lava Jumper",
+    "category": "running",
+    "tags": [
+      "running",
+      "lava",
+      "jumper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "logic-chain",
+    "repo_name": "logic-chain-game",
+    "game_name": "Logic Chain",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "chain",
+      "browser"
+    ]
+  },
+  {
+    "slug": "logic-grid",
+    "repo_name": "logic-grid-game",
+    "game_name": "Logic Grid",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "grid",
+      "browser"
+    ]
+  },
+  {
+    "slug": "logic-path",
+    "repo_name": "logic-path-game",
+    "game_name": "Logic Path",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "path",
+      "browser"
+    ]
+  },
+  {
+    "slug": "luma-maze",
+    "repo_name": "luma-maze-game",
+    "game_name": "Luma Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "luma",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "magnet-maze",
+    "repo_name": "magnet-maze-game",
+    "game_name": "Magnet Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "magnet",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "match-pair",
+    "repo_name": "match-pair-game",
+    "game_name": "Match Pair",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "match",
+      "pair",
+      "browser"
+    ]
+  },
+  {
+    "slug": "maze-master",
+    "repo_name": "maze-master-game",
+    "game_name": "Maze Master",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "maze",
+      "master",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory",
+    "repo_name": "memory-game",
+    "game_name": "Memory",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "memory",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory-blink",
+    "repo_name": "memory-blink-game",
+    "game_name": "Memory Blink",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "memory",
+      "blink",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory-game",
+    "repo_name": "memory-game-game",
+    "game_name": "Memory Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "memory",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory-matrix",
+    "repo_name": "memory-matrix-game",
+    "game_name": "Memory Matrix",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "memory",
+      "matrix",
+      "browser"
+    ]
+  },
+  {
+    "slug": "minesweeper-clone",
+    "repo_name": "minesweeper-clone-game",
+    "game_name": "Minesweeper Clone",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "minesweeper",
+      "clone",
+      "browser"
+    ]
+  },
+  {
+    "slug": "minesweeper-game",
+    "repo_name": "minesweeper-game-game",
+    "game_name": "Minesweeper Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "minesweeper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mini-tank-battle",
+    "repo_name": "mini-tank-battle-game",
+    "game_name": "Mini Tank Battle",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "tank",
+      "battle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "music-bubble-pop",
+    "repo_name": "music-bubble-pop-game",
+    "game_name": "Music Bubble Pop",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "music",
+      "bubble",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mystic-maze",
+    "repo_name": "mystic-maze-game",
+    "game_name": "Mystic Maze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "mystic",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-lock",
+    "repo_name": "number-lock-game",
+    "game_name": "Number Lock",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "number",
+      "lock",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pattern-match",
+    "repo_name": "pattern-match-game",
+    "game_name": "Pattern Match",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "pattern",
+      "match",
+      "browser"
+    ]
+  },
+  {
+    "slug": "perfect-aim",
+    "repo_name": "perfect-aim-game",
+    "game_name": "Perfect Aim",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "perfect",
+      "aim",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pipe-craze",
+    "repo_name": "pipe-craze-game",
+    "game_name": "Pipe Craze",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "pipe",
+      "craze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pipe-mania",
+    "repo_name": "pipe-mania-game",
+    "game_name": "Pipe Mania",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "pipe",
+      "mania",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pipe-twister",
+    "repo_name": "pipe-twister-game",
+    "game_name": "Pipe Twister",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "pipe",
+      "twister",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pong",
+    "repo_name": "pong-game",
+    "game_name": "Pong",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "pong",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pong-game",
+    "repo_name": "pong-game-game",
+    "game_name": "Pong Game",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "pong",
+      "browser"
+    ]
+  },
+  {
+    "slug": "portal-logic",
+    "repo_name": "portal-logic-game",
+    "game_name": "Portal Logic",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "portal",
+      "logic",
+      "browser"
+    ]
+  },
+  {
+    "slug": "prism-puzzle",
+    "repo_name": "prism-puzzle-game",
+    "game_name": "Prism Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "prism",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rain-catcher",
+    "repo_name": "rain-catcher-game",
+    "game_name": "Rain Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rain",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rain-drop-rhythm",
+    "repo_name": "rain-drop-rhythm-game",
+    "game_name": "Rain Drop Rhythm",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rain",
+      "drop",
+      "rhythm",
+      "browser"
+    ]
+  },
+  {
+    "slug": "reaction-duel",
+    "repo_name": "reaction-duel-game",
+    "game_name": "Reaction Duel",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "reaction",
+      "duel",
+      "browser"
+    ]
+  },
+  {
+    "slug": "reaction-timer",
+    "repo_name": "reaction-timer-game",
+    "game_name": "Reaction Timer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "reaction",
+      "timer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "reaction-timer-game",
+    "repo_name": "reaction-timer-game-game",
+    "game_name": "Reaction Timer Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "reaction",
+      "timer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ripple-runner",
+    "repo_name": "ripple-runner-game",
+    "game_name": "Ripple Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "ripple",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadow-puppet",
+    "repo_name": "shadow-puppet-game",
+    "game_name": "Shadow Puppet",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "shadow",
+      "puppet",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadow-shift",
+    "repo_name": "shadow-shift-game",
+    "game_name": "Shadow Shift",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "shadow",
+      "shift",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadow-sprint",
+    "repo_name": "shadow-sprint-game",
+    "game_name": "Shadow Sprint",
+    "category": "running",
+    "tags": [
+      "running",
+      "shadow",
+      "sprint",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shadowshift",
+    "repo_name": "shadowshift-game",
+    "game_name": "Shadowshift",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "shadowshift",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-logic",
+    "repo_name": "shape-logic-game",
+    "game_name": "Shape Logic",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "shape",
+      "logic",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-rotation-puzzle",
+    "repo_name": "shape-rotation-puzzle-game",
+    "game_name": "Shape Rotation Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "shape",
+      "rotation",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-shooter",
+    "repo_name": "shape-shooter-game",
+    "game_name": "Shape Shooter",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "shape",
+      "shooter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "simon-game",
+    "repo_name": "simon-game-game",
+    "game_name": "Simon Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "simon",
+      "browser"
+    ]
+  },
+  {
+    "slug": "simon-says-game",
+    "repo_name": "simon-says-game-game",
+    "game_name": "Simon Says Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "simon",
+      "says",
+      "browser"
+    ]
+  },
+  {
+    "slug": "simonsays",
+    "repo_name": "simonsays-game",
+    "game_name": "Simonsays",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "simonsays",
+      "browser"
+    ]
+  },
+  {
+    "slug": "simple-jumper",
+    "repo_name": "simple-jumper-game",
+    "game_name": "Simple Jumper",
+    "category": "running",
+    "tags": [
+      "running",
+      "simple",
+      "jumper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "snake",
+    "repo_name": "snake-game",
+    "game_name": "Snake",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "snake",
+      "browser"
+    ]
+  },
+  {
+    "slug": "snake-clone",
+    "repo_name": "snake-clone-game",
+    "game_name": "Snake Clone",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "snake",
+      "clone",
+      "browser"
+    ]
+  },
+  {
+    "slug": "snake-game",
+    "repo_name": "snake-game-game",
+    "game_name": "Snake Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "snake",
+      "browser"
+    ]
+  },
+  {
+    "slug": "snowflake-catcher",
+    "repo_name": "snowflake-catcher-game",
+    "game_name": "Snowflake Catcher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "snowflake",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "space-bounce",
+    "repo_name": "space-bounce-game",
+    "game_name": "Space Bounce",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "space",
+      "bounce",
+      "browser"
+    ]
+  },
+  {
+    "slug": "space-invader",
+    "repo_name": "space-invader-game",
+    "game_name": "Space Invader",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "space",
+      "invader",
+      "browser"
+    ]
+  },
+  {
+    "slug": "speed-match",
+    "repo_name": "speed-match-game",
+    "game_name": "Speed Match",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "speed",
+      "match",
+      "browser"
+    ]
+  },
+  {
+    "slug": "speed-tap-grid",
+    "repo_name": "speed-tap-grid-game",
+    "game_name": "Speed Tap Grid",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "speed",
+      "tap",
+      "grid",
+      "browser"
+    ]
+  },
+  {
+    "slug": "stack-tower",
+    "repo_name": "stack-tower-game",
+    "game_name": "Stack Tower",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "stack",
+      "tower",
+      "browser"
+    ]
+  },
+  {
+    "slug": "star-chain-reaction",
+    "repo_name": "star-chain-reaction-game",
+    "game_name": "Star Chain Reaction",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "star",
+      "chain",
+      "reaction",
+      "browser"
+    ]
+  },
+  {
+    "slug": "star-jump",
+    "repo_name": "star-jump-game",
+    "game_name": "Star Jump",
+    "category": "running",
+    "tags": [
+      "running",
+      "star",
+      "jump",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sticky-runner",
+    "repo_name": "sticky-runner-game",
+    "game_name": "Sticky Runner",
+    "category": "running",
+    "tags": [
+      "running",
+      "sticky",
+      "runner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-challenge",
+    "repo_name": "tap-challenge-game",
+    "game_name": "Tap Challenge",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "challenge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-counter",
+    "repo_name": "tap-counter-game",
+    "game_name": "Tap Counter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "counter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-pop-clouds",
+    "repo_name": "tap-pop-clouds-game",
+    "game_name": "Tap Pop Clouds",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "clouds",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-reveal",
+    "repo_name": "tap-reveal-game",
+    "game_name": "Tap Reveal",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "reveal",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tap-the-beat",
+    "repo_name": "tap-the-beat-game",
+    "game_name": "Tap The Beat",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tap",
+      "beat",
+      "browser"
+    ]
+  },
+  {
+    "slug": "target-shooter",
+    "repo_name": "target-shooter-game",
+    "game_name": "Target Shooter",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "target",
+      "shooter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tetris",
+    "repo_name": "tetris-game",
+    "game_name": "Tetris",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "tetris",
+      "browser"
+    ]
+  },
+  {
+    "slug": "the-dodge-zone",
+    "repo_name": "the-dodge-zone-game",
+    "game_name": "The Dodge Zone",
+    "category": "running",
+    "tags": [
+      "running",
+      "dodge",
+      "zone",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tile-memory-flip",
+    "repo_name": "tile-memory-flip-game",
+    "game_name": "Tile Memory Flip",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "tile",
+      "memory",
+      "flip",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tiny-tower-tactics",
+    "repo_name": "tiny-tower-tactics-game",
+    "game_name": "Tiny Tower Tactics",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "tiny",
+      "tower",
+      "tactics",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tower-defense",
+    "repo_name": "tower-defense-game",
+    "game_name": "Tower Defense",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "tower",
+      "defense",
+      "browser"
+    ]
+  },
+  {
+    "slug": "vortex-jump",
+    "repo_name": "vortex-jump-game",
+    "game_name": "Vortex Jump",
+    "category": "running",
+    "tags": [
+      "running",
+      "vortex",
+      "jump",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-length-game",
+    "repo_name": "word-length-game-game",
+    "game_name": "Word Length Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "length",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-racing",
+    "repo_name": "word-racing-game",
+    "game_name": "Word Racing",
+    "category": "word",
+    "tags": [
+      "word",
+      "racing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-scramble",
+    "repo_name": "word-scramble-game",
+    "game_name": "Word Scramble",
+    "category": "word",
+    "tags": [
+      "word",
+      "scramble",
+      "browser"
+    ]
+  },
+  {
+    "slug": "match-three-candy",
+    "repo_name": "match-three-candy-game",
+    "game_name": "Match Three Candy",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "match",
+      "three",
+      "candy",
+      "browser"
+    ]
+  },
+  {
+    "slug": "maze-chase",
+    "repo_name": "maze-chase-game",
+    "game_name": "Maze Chase",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "maze",
+      "chase",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chess-game",
+    "repo_name": "chess-game-game",
+    "game_name": "Chess Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "chess",
+      "browser"
+    ]
+  },
+  {
+    "slug": "vertical-jumper",
+    "repo_name": "vertical-jumper-game",
+    "game_name": "Vertical Jumper",
+    "category": "running",
+    "tags": [
+      "running",
+      "vertical",
+      "jumper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "solitaire-game",
+    "repo_name": "solitaire-game-game",
+    "game_name": "Solitaire Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "solitaire",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sudoku-game",
+    "repo_name": "sudoku-game-game",
+    "game_name": "Sudoku Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "sudoku",
+      "browser"
+    ]
+  },
+  {
+    "slug": "road-crossing",
+    "repo_name": "road-crossing-game",
+    "game_name": "Road Crossing",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "road",
+      "crossing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "2048-game",
+    "repo_name": "2048-game-game",
+    "game_name": "2048 Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "2048",
+      "number",
+      "browser"
+    ]
+  },
+  {
+    "slug": "five-letter-word-puzzle",
+    "repo_name": "five-letter-word-puzzle-game",
+    "game_name": "Five Letter Word Puzzle",
+    "category": "word",
+    "tags": [
+      "word",
+      "five",
+      "letter",
+      "puzzle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hangman-game",
+    "repo_name": "hangman-game-game",
+    "game_name": "Hangman Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "hangman",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tower-blocks",
+    "repo_name": "tower-blocks-game",
+    "game_name": "Tower Blocks",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "tower",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "archery-game",
+    "repo_name": "archery-game-game",
+    "game_name": "Archery Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "archery",
+      "browser"
+    ]
+  },
+  {
+    "slug": "speed-typing-game",
+    "repo_name": "speed-typing-game-game",
+    "game_name": "Speed Typing Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "speed",
+      "typing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "breakout-game",
+    "repo_name": "breakout-game-game",
+    "game_name": "Breakout Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "breakout",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ping-pong-game",
+    "repo_name": "ping-pong-game-game",
+    "game_name": "Ping Pong Game",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "ping",
+      "pong",
+      "browser"
+    ]
+  },
+  {
+    "slug": "falling-blocks",
+    "repo_name": "falling-blocks-game",
+    "game_name": "Falling Blocks",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "falling",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tilting-maze-game",
+    "repo_name": "tilting-maze-game-game",
+    "game_name": "Tilting Maze Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "tilting",
+      "maze",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory-card-game",
+    "repo_name": "memory-card-game-game",
+    "game_name": "Memory Card Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "memory",
+      "card",
+      "browser"
+    ]
+  },
+  {
+    "slug": "type-number-guessing-game",
+    "repo_name": "type-number-guessing-game-game",
+    "game_name": "Type Number Guessing Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "type",
+      "number",
+      "guessing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "insect-catch-game",
+    "repo_name": "insect-catch-game-game",
+    "game_name": "Insect Catch Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "insect",
+      "catch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "typing-game",
+    "repo_name": "typing-game-game",
+    "game_name": "Typing Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "typing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dice-roll-simulator",
+    "repo_name": "dice-roll-simulator-game",
+    "game_name": "Dice Roll Simulator",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "dice",
+      "roll",
+      "simulator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-clicker-game",
+    "repo_name": "shape-clicker-game-game",
+    "game_name": "Shape Clicker Game",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "shape",
+      "clicker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "speak-number-guessing-game",
+    "repo_name": "speak-number-guessing-game-game",
+    "game_name": "Speak Number Guessing Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "speak",
+      "number",
+      "guessing",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fruit-slicer-game",
+    "repo_name": "fruit-slicer-game-game",
+    "game_name": "Fruit Slicer Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "fruit",
+      "slicer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quiz-game",
+    "repo_name": "quiz-game-game",
+    "game_name": "Quiz Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "quiz",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-catcher-game",
+    "repo_name": "emoji-catcher-game-game",
+    "game_name": "Emoji Catcher Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emoji",
+      "catcher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sliding-puzzle-game",
+    "repo_name": "sliding-puzzle-game-game",
+    "game_name": "Sliding Puzzle Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "sliding",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bounce",
+    "repo_name": "bounce-game",
+    "game_name": "Bounce",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bounce",
+      "browser"
+    ]
+  },
+  {
+    "slug": "space-defender",
+    "repo_name": "space-defender-game",
+    "game_name": "Space Defender",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "space",
+      "defender",
+      "browser"
+    ]
+  },
+  {
+    "slug": "retro-maze-chase",
+    "repo_name": "retro-maze-chase-game",
+    "game_name": "Retro Maze Chase",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "retro",
+      "maze",
+      "chase",
+      "browser"
+    ]
+  },
+  {
+    "slug": "picture-puzzle",
+    "repo_name": "picture-puzzle-game",
+    "game_name": "Picture Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "picture",
+      "browser"
+    ]
+  },
+  {
+    "slug": "retro-snake",
+    "repo_name": "retro-snake-game",
+    "game_name": "Retro Snake",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "retro",
+      "snake",
+      "browser"
+    ]
+  },
+  {
+    "slug": "spider-solitaire",
+    "repo_name": "spider-solitaire-game",
+    "game_name": "Spider Solitaire",
+    "category": "board",
+    "tags": [
+      "board",
+      "spider",
+      "solitaire",
+      "browser"
+    ]
+  },
+  {
+    "slug": "retro-falling-blocks",
+    "repo_name": "retro-falling-blocks-game",
+    "game_name": "Retro Falling Blocks",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "retro",
+      "falling",
+      "blocks",
+      "browser"
+    ]
+  },
+  {
+    "slug": "canvas-brick-breaker",
+    "repo_name": "canvas-brick-breaker-game",
+    "game_name": "Canvas Brick Breaker",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "canvas",
+      "brick",
+      "breaker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "canvas-pong",
+    "repo_name": "canvas-pong-game",
+    "game_name": "Canvas Pong",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "canvas",
+      "pong",
+      "browser"
+    ]
+  },
+  {
+    "slug": "canvas-racing",
+    "repo_name": "canvas-racing-game",
+    "game_name": "Canvas Racing",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "canvas",
+      "browser"
+    ]
+  },
+  {
+    "slug": "canvas-snake",
+    "repo_name": "canvas-snake-game",
+    "game_name": "Canvas Snake",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "canvas",
+      "snake",
+      "browser"
+    ]
+  },
+  {
+    "slug": "canvas-tic-tac-toe",
+    "repo_name": "canvas-tic-tac-toe-game",
+    "game_name": "Canvas Tic Tac Toe",
+    "category": "board",
+    "tags": [
+      "board",
+      "canvas",
+      "browser"
+    ]
+  },
+  {
+    "slug": "adventure-game",
+    "repo_name": "adventure-game-game",
+    "game_name": "Adventure Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "adventure",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "adventure-game-new",
+    "repo_name": "adventure-game-new-game",
+    "game_name": "Adventure Game New",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "adventure",
+      "game",
+      "new",
+      "browser"
+    ]
+  },
+  {
+    "slug": "alphabattle",
+    "repo_name": "alphabattle-game",
+    "game_name": "Alphabattle",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "alphabattle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "avoid-the-flash",
+    "repo_name": "avoid-the-flash-game",
+    "game_name": "Avoid The Flash",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "avoid",
+      "the",
+      "flash",
+      "browser"
+    ]
+  },
+  {
+    "slug": "balance-scale",
+    "repo_name": "balance-scale-game",
+    "game_name": "Balance Scale",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "balance",
+      "scale",
+      "browser"
+    ]
+  },
+  {
+    "slug": "balance-bar",
+    "repo_name": "balance-bar-game",
+    "game_name": "Balance Bar",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "balance",
+      "bar",
+      "browser"
+    ]
+  },
+  {
+    "slug": "boom",
+    "repo_name": "boom-game",
+    "game_name": "Boom",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "boom",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bottle-flip-challenge",
+    "repo_name": "bottle-flip-challenge-game",
+    "game_name": "Bottle Flip Challenge",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bottle",
+      "flip",
+      "challenge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bunnyhopdash",
+    "repo_name": "bunnyhopdash-game",
+    "game_name": "Bunnyhopdash",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "bunnyhopdash",
+      "browser"
+    ]
+  },
+  {
+    "slug": "burger-builder",
+    "repo_name": "burger-builder-game",
+    "game_name": "Burger Builder",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "burger",
+      "builder",
+      "browser"
+    ]
+  },
+  {
+    "slug": "butterfly-garden",
+    "repo_name": "butterfly-garden-game",
+    "game_name": "Butterfly Garden",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "butterfly",
+      "garden",
+      "browser"
+    ]
+  },
+  {
+    "slug": "card-game",
+    "repo_name": "card-game-game",
+    "game_name": "Card Game",
+    "category": "board",
+    "tags": [
+      "board",
+      "card",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chain-game",
+    "repo_name": "chain-game-game",
+    "game_name": "Chain Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "chain",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chromatic-chase",
+    "repo_name": "chromatic-chase-game",
+    "game_name": "Chromatic Chase",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "chromatic",
+      "chase",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chronoquest",
+    "repo_name": "chronoquest-game",
+    "game_name": "Chronoquest",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "chronoquest",
+      "browser"
+    ]
+  },
+  {
+    "slug": "click-combo-quiz",
+    "repo_name": "click-combo-quiz-game",
+    "game_name": "Click Combo Quiz",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "click",
+      "combo",
+      "quiz",
+      "browser"
+    ]
+  },
+  {
+    "slug": "clicker-farmer",
+    "repo_name": "clicker-farmer-game",
+    "game_name": "Clicker Farmer",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "clicker",
+      "farmer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "coin-toss-simulator",
+    "repo_name": "coin-toss-simulator-game",
+    "game_name": "Coin Toss Simulator",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "coin",
+      "toss",
+      "simulator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-balance",
+    "repo_name": "color-balance-game",
+    "game_name": "Color Balance",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "balance",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-circuit",
+    "repo_name": "color-circuit-game",
+    "game_name": "Color Circuit",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "circuit",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-clicker",
+    "repo_name": "color-clicker-game",
+    "game_name": "Color Clicker",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "clicker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-guessing-game",
+    "repo_name": "color-guessing-game-game",
+    "game_name": "Color Guessing Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "guessing",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-harmony",
+    "repo_name": "color-harmony-game",
+    "game_name": "Color Harmony",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "harmony",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-merge",
+    "repo_name": "color-merge-game",
+    "game_name": "Color Merge",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "merge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-mixer",
+    "repo_name": "color-mixer-game",
+    "game_name": "Color Mixer",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "mixer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-rush",
+    "repo_name": "color-rush-game",
+    "game_name": "Color Rush",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "rush",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-switch",
+    "repo_name": "color-switch-game",
+    "game_name": "Color Switch",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "switch",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-switch-challenge",
+    "repo_name": "color-switch-challenge-game",
+    "game_name": "Color Switch Challenge",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "switch",
+      "challenge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-palate",
+    "repo_name": "color-palate-game",
+    "game_name": "Color Palate",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "color",
+      "palate",
+      "browser"
+    ]
+  },
+  {
+    "slug": "colorguess",
+    "repo_name": "colorguess-game",
+    "game_name": "Colorguess",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "colorguess",
+      "browser"
+    ]
+  },
+  {
+    "slug": "colorspin",
+    "repo_name": "colorspin-game",
+    "game_name": "Colorspin",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "colorspin",
+      "browser"
+    ]
+  },
+  {
+    "slug": "concentration-game",
+    "repo_name": "concentration-game-game",
+    "game_name": "Concentration Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "concentration",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cosmic-defender",
+    "repo_name": "cosmic-defender-game",
+    "game_name": "Cosmic Defender",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "cosmic",
+      "defender",
+      "browser"
+    ]
+  },
+  {
+    "slug": "crystal-drift",
+    "repo_name": "crystal-drift-game",
+    "game_name": "Crystal Drift",
+    "category": "running",
+    "tags": [
+      "running",
+      "crystal",
+      "drift",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dice-battle",
+    "repo_name": "dice-battle-game",
+    "game_name": "Dice Battle",
+    "category": "board",
+    "tags": [
+      "board",
+      "dice",
+      "battle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "drawing-game",
+    "repo_name": "drawing-game-game",
+    "game_name": "Drawing Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "drawing",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-pop-quiz",
+    "repo_name": "emoji-pop-quiz-game",
+    "game_name": "Emoji Pop Quiz",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emoji",
+      "pop",
+      "quiz",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-battle-arena",
+    "repo_name": "emoji-battle-arena-game",
+    "game_name": "Emoji Battle Arena",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emoji",
+      "battle",
+      "arena",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emojie-game",
+    "repo_name": "emojie-game-game",
+    "game_name": "Emojie Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emojie",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "escape-game",
+    "repo_name": "escape-game-game",
+    "game_name": "Escape Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "escape",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flip-focus",
+    "repo_name": "flip-focus-game",
+    "game_name": "Flip Focus",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "flip",
+      "focus",
+      "browser"
+    ]
+  },
+  {
+    "slug": "garden-grower",
+    "repo_name": "garden-grower-game",
+    "game_name": "Garden Grower",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "garden",
+      "grower",
+      "browser"
+    ]
+  },
+  {
+    "slug": "glow-chain",
+    "repo_name": "glow-chain-game",
+    "game_name": "Glow Chain",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "glow",
+      "chain",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-flip-ball",
+    "repo_name": "gravity-flip-ball-game",
+    "game_name": "Gravity Flip Ball",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "gravity",
+      "flip",
+      "ball",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-flip",
+    "repo_name": "gravity-flip-game",
+    "game_name": "Gravity Flip",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "gravity",
+      "flip",
+      "browser"
+    ]
+  },
+  {
+    "slug": "guess-game",
+    "repo_name": "guess-game-game",
+    "game_name": "Guess Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "guess",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "idle-clicker",
+    "repo_name": "idle-clicker-game",
+    "game_name": "Idle Clicker",
+    "category": "idle",
+    "tags": [
+      "idle",
+      "clicker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "jigsaw-game",
+    "repo_name": "jigsaw-game-game",
+    "game_name": "Jigsaw Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "jigsaw",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "key-flip",
+    "repo_name": "key-flip-game",
+    "game_name": "Key Flip",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "key",
+      "flip",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lexiquest",
+    "repo_name": "lexiquest-game",
+    "game_name": "Lexiquest",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "lexiquest",
+      "browser"
+    ]
+  },
+  {
+    "slug": "light-ball-trail",
+    "repo_name": "light-ball-trail-game",
+    "game_name": "Light Ball Trail",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "light",
+      "ball",
+      "trail",
+      "browser"
+    ]
+  },
+  {
+    "slug": "light-orb-quest",
+    "repo_name": "light-orb-quest-game",
+    "game_name": "Light Orb Quest",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "light",
+      "orb",
+      "quest",
+      "browser"
+    ]
+  },
+  {
+    "slug": "line-game",
+    "repo_name": "line-game-game",
+    "game_name": "Line Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "line",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "link-game",
+    "repo_name": "link-game-game",
+    "game_name": "Link Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "link",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-chain",
+    "repo_name": "math-chain-game",
+    "game_name": "Math Chain",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "chain",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-game",
+    "repo_name": "math-game-game",
+    "game_name": "Math Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-flacecard",
+    "repo_name": "math-flacecard-game",
+    "game_name": "Math Flacecard",
+    "category": "board",
+    "tags": [
+      "board",
+      "math",
+      "flacecard",
+      "browser"
+    ]
+  },
+  {
+    "slug": "memory-match-2",
+    "repo_name": "memory-match-2-game",
+    "game_name": "Memory Match",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "memory",
+      "match",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-cruncher",
+    "repo_name": "number-cruncher-game",
+    "game_name": "Number Cruncher",
+    "category": "running",
+    "tags": [
+      "running",
+      "number",
+      "cruncher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-game",
+    "repo_name": "number-game-game",
+    "game_name": "Number Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "number",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ocean-drift-2d",
+    "repo_name": "ocean-drift-2d-game",
+    "game_name": "Ocean Drift 2D",
+    "category": "running",
+    "tags": [
+      "running",
+      "ocean",
+      "drift",
+      "2d",
+      "browser"
+    ]
+  },
+  {
+    "slug": "painter-game",
+    "repo_name": "painter-game-game",
+    "game_name": "Painter Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "painter",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "perfect-click",
+    "repo_name": "perfect-click-game",
+    "game_name": "Perfect Click",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "perfect",
+      "click",
+      "browser"
+    ]
+  },
+  {
+    "slug": "persona-quiz",
+    "repo_name": "persona-quiz-game",
+    "game_name": "Persona Quiz",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "persona",
+      "quiz",
+      "browser"
+    ]
+  },
+  {
+    "slug": "petal-painter",
+    "repo_name": "petal-painter-game",
+    "game_name": "Petal Painter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "petal",
+      "painter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "piano-game",
+    "repo_name": "piano-game-game",
+    "game_name": "Piano Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "piano",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pinball-wizard",
+    "repo_name": "pinball-wizard-game",
+    "game_name": "Pinball Wizard",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "pinball",
+      "wizard",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quick-math-battle-quiz",
+    "repo_name": "quick-math-battle-quiz-game",
+    "game_name": "Quick Math Battle Quiz",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quick",
+      "math",
+      "battle",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quiz-game-2",
+    "repo_name": "quiz-game-2-game",
+    "game_name": "Quiz Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quiz",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quiz-game-new",
+    "repo_name": "quiz-game-new-game",
+    "game_name": "Quiz Game New",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quiz",
+      "game",
+      "new",
+      "browser"
+    ]
+  },
+  {
+    "slug": "reflex-game",
+    "repo_name": "reflex-game-game",
+    "game_name": "Reflex Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "reflex",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "right-click",
+    "repo_name": "right-click-game",
+    "game_name": "Right Click",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "right",
+      "click",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rpg-game",
+    "repo_name": "rpg-game-game",
+    "game_name": "Rpg Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rpg",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shooting-range",
+    "repo_name": "shooting-range-game",
+    "game_name": "Shooting Range",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "range",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sliding-puzzle-2",
+    "repo_name": "sliding-puzzle-2-game",
+    "game_name": "Sliding Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "sliding",
+      "browser"
+    ]
+  },
+  {
+    "slug": "snowball-rush",
+    "repo_name": "snowball-rush-game",
+    "game_name": "Snowball Rush",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "snowball",
+      "rush",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sticky-ball",
+    "repo_name": "sticky-ball-game",
+    "game_name": "Sticky Ball",
+    "category": "sports",
+    "tags": [
+      "sports",
+      "sticky",
+      "ball",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tamagochi-game",
+    "repo_name": "tamagochi-game-game",
+    "game_name": "Tamagochi Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "tamagochi",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "timer-game-new",
+    "repo_name": "timer-game-new-game",
+    "game_name": "Timer Game New",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "timer",
+      "game",
+      "new",
+      "browser"
+    ]
+  },
+  {
+    "slug": "timing-game",
+    "repo_name": "timing-game-game",
+    "game_name": "Timing Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "timing",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "tower-of-hanoi-2",
+    "repo_name": "tower-of-hanoi-2-game",
+    "game_name": "Tower Of Hanoi",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "tower",
+      "of",
+      "hanoi",
+      "browser"
+    ]
+  },
+  {
+    "slug": "virus-defender",
+    "repo_name": "virus-defender-game",
+    "game_name": "Virus Defender",
+    "category": "shooting",
+    "tags": [
+      "shooting",
+      "virus",
+      "defender",
+      "browser"
+    ]
+  },
+  {
+    "slug": "weight-balance",
+    "repo_name": "weight-balance-game",
+    "game_name": "Weight Balance",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "weight",
+      "balance",
+      "browser"
+    ]
+  },
+  {
+    "slug": "whack-a-mole-2",
+    "repo_name": "whack-a-mole-2-game",
+    "game_name": "Whack A Mole",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "whack",
+      "mole",
+      "browser"
+    ]
+  },
+  {
+    "slug": "wind-blower",
+    "repo_name": "wind-blower-game",
+    "game_name": "Wind Blower",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "wind",
+      "blower",
+      "browser"
+    ]
+  },
+  {
+    "slug": "wind-petals",
+    "repo_name": "wind-petals-game",
+    "game_name": "Wind Petals",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "wind",
+      "petals",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-scrumble",
+    "repo_name": "word-scrumble-game",
+    "game_name": "Word Scrumble",
+    "category": "word",
+    "tags": [
+      "word",
+      "scrumble",
+      "browser"
+    ]
+  },
+  {
+    "slug": "word-scrumble-2",
+    "repo_name": "word-scrumble-2-game",
+    "game_name": "Word Scrumble",
+    "category": "word",
+    "tags": [
+      "word",
+      "scrumble",
+      "browser"
+    ]
+  },
+  {
+    "slug": "words-of-wonders",
+    "repo_name": "words-of-wonders-game",
+    "game_name": "Words Of Wonders",
+    "category": "word",
+    "tags": [
+      "word",
+      "words",
+      "of",
+      "wonders",
+      "browser"
+    ]
+  },
+  {
+    "slug": "world-match-up",
+    "repo_name": "world-match-up-game",
+    "game_name": "World Match Up",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "world",
+      "match",
+      "up",
+      "browser"
+    ]
+  },
+  {
+    "slug": "worlds-easiest-game",
+    "repo_name": "worlds-easiest-game-game",
+    "game_name": "Worlds Easiest Game",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "worlds",
+      "easiest",
+      "game",
+      "browser"
+    ]
+  },
+  {
+    "slug": "zombie-tapper",
+    "repo_name": "zombie-tapper-game",
+    "game_name": "Zombie Tapper",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "zombie",
+      "tapper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "peglinko",
+    "repo_name": "peglinko-game",
+    "game_name": "Peglinko",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "peglinko",
+      "browser"
+    ]
+  },
+  {
+    "slug": "angle-shot",
+    "repo_name": "angle-shot-game",
+    "game_name": "Angle Shot",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "angle",
+      "shot",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aurora-wave",
+    "repo_name": "aurora-wave-game",
+    "game_name": "Aurora Wave",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "aurora",
+      "wave",
+      "browser"
+    ]
+  },
+  {
+    "slug": "button-walk",
+    "repo_name": "button-walk-game",
+    "game_name": "Button Walk",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "button",
+      "walk",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chroma-cascade",
+    "repo_name": "chroma-cascade-game",
+    "game_name": "Chroma Cascade",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "chroma",
+      "cascade",
+      "browser"
+    ]
+  },
+  {
+    "slug": "chromatic-clearance",
+    "repo_name": "chromatic-clearance-game",
+    "game_name": "Chromatic Clearance",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "chromatic",
+      "clearance",
+      "browser"
+    ]
+  },
+  {
+    "slug": "colour-wheel",
+    "repo_name": "colour-wheel-game",
+    "game_name": "Colour Wheel",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "colour",
+      "wheel",
+      "browser"
+    ]
+  },
+  {
+    "slug": "console-log",
+    "repo_name": "console-log-game",
+    "game_name": "Console Log",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "console",
+      "log",
+      "browser"
+    ]
+  },
+  {
+    "slug": "convoy-walk",
+    "repo_name": "convoy-walk-game",
+    "game_name": "Convoy Walk",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "convoy",
+      "walk",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cookie-cutter",
+    "repo_name": "cookie-cutter-game",
+    "game_name": "Cookie Cutter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "cookie",
+      "cutter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cookiexo",
+    "repo_name": "cookiexo-game",
+    "game_name": "Cookiexo",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "cookiexo",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cooking-challenge",
+    "repo_name": "cooking-challenge-game",
+    "game_name": "Cooking Challenge",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "cooking",
+      "challenge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "crystal-collector",
+    "repo_name": "crystal-collector-game",
+    "game_name": "Crystal Collector",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "crystal",
+      "collector",
+      "browser"
+    ]
+  },
+  {
+    "slug": "css-inspector",
+    "repo_name": "css-inspector-game",
+    "game_name": "Css Inspector",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "css",
+      "inspector",
+      "browser"
+    ]
+  },
+  {
+    "slug": "css-transform",
+    "repo_name": "css-transform-game",
+    "game_name": "Css Transform",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "css",
+      "transform",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cube-alignment",
+    "repo_name": "cube-alignment-game",
+    "game_name": "Cube Alignment",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "cube",
+      "alignment",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dance-floor",
+    "repo_name": "dance-floor-game",
+    "game_name": "Dance Floor",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "dance",
+      "floor",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dice-roll",
+    "repo_name": "dice-roll-game",
+    "game_name": "Dice Roll",
+    "category": "board",
+    "tags": [
+      "board",
+      "dice",
+      "roll",
+      "browser"
+    ]
+  },
+  {
+    "slug": "digital-pet",
+    "repo_name": "digital-pet-game",
+    "game_name": "Digital Pet",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "digital",
+      "pet",
+      "browser"
+    ]
+  },
+  {
+    "slug": "drag-race",
+    "repo_name": "drag-race-game",
+    "game_name": "Drag Race",
+    "category": "running",
+    "tags": [
+      "running",
+      "drag",
+      "race",
+      "browser"
+    ]
+  },
+  {
+    "slug": "echo-chamber",
+    "repo_name": "echo-chamber-game",
+    "game_name": "Echo Chamber",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "echo",
+      "chamber",
+      "browser"
+    ]
+  },
+  {
+    "slug": "echo-echo",
+    "repo_name": "echo-echo-game",
+    "game_name": "Echo Echo",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "echo",
+      "browser"
+    ]
+  },
+  {
+    "slug": "echobeats",
+    "repo_name": "echobeats-game",
+    "game_name": "Echobeats",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "echobeats",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emj-guess",
+    "repo_name": "emj-guess-game",
+    "game_name": "Emj Guess",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "emj",
+      "guess",
+      "browser"
+    ]
+  },
+  {
+    "slug": "energy-flow",
+    "repo_name": "energy-flow-game",
+    "game_name": "Energy Flow",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "energy",
+      "flow",
+      "browser"
+    ]
+  },
+  {
+    "slug": "eye-blink-test",
+    "repo_name": "eye-blink-test-game",
+    "game_name": "Eye Blink Test",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "eye",
+      "blink",
+      "test",
+      "browser"
+    ]
+  },
+  {
+    "slug": "falling-leaves-collector",
+    "repo_name": "falling-leaves-collector-game",
+    "game_name": "Falling Leaves Collector",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "falling",
+      "leaves",
+      "collector",
+      "browser"
+    ]
+  },
+  {
+    "slug": "farm-life",
+    "repo_name": "farm-life-game",
+    "game_name": "Farm Life",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "farm",
+      "life",
+      "browser"
+    ]
+  },
+  {
+    "slug": "find-hidden-object",
+    "repo_name": "find-hidden-object-game",
+    "game_name": "Find Hidden Object",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "find",
+      "hidden",
+      "object",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fire-spark",
+    "repo_name": "fire-spark-game",
+    "game_name": "Fire Spark",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "fire",
+      "spark",
+      "browser"
+    ]
+  },
+  {
+    "slug": "firefly-flight",
+    "repo_name": "firefly-flight-game",
+    "game_name": "Firefly Flight",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "firefly",
+      "flight",
+      "browser"
+    ]
+  },
+  {
+    "slug": "firefly-flow",
+    "repo_name": "firefly-flow-game",
+    "game_name": "Firefly Flow",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "firefly",
+      "flow",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fishing-frenzy",
+    "repo_name": "fishing-frenzy-game",
+    "game_name": "Fishing Frenzy",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "fishing",
+      "frenzy",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flag-guess",
+    "repo_name": "flag-guess-game",
+    "game_name": "Flag Guess",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "flag",
+      "guess",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flame-fighter",
+    "repo_name": "flame-fighter-game",
+    "game_name": "Flame Fighter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "flame",
+      "fighter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flappy-bird-2",
+    "repo_name": "flappy-bird-2-game",
+    "game_name": "Flappy Bird",
+    "category": "running",
+    "tags": [
+      "running",
+      "flappy",
+      "bird",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flower-bloom",
+    "repo_name": "flower-bloom-game",
+    "game_name": "Flower Bloom",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "flower",
+      "bloom",
+      "browser"
+    ]
+  },
+  {
+    "slug": "follow-the-path",
+    "repo_name": "follow-the-path-game",
+    "game_name": "Follow The Path",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "follow",
+      "the",
+      "path",
+      "browser"
+    ]
+  },
+  {
+    "slug": "freeze-frame",
+    "repo_name": "freeze-frame-game",
+    "game_name": "Freeze Frame",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "freeze",
+      "frame",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fruit-slicer",
+    "repo_name": "fruit-slicer-game",
+    "game_name": "Fruit Slicer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "fruit",
+      "slicer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fruits",
+    "repo_name": "fruits-game",
+    "game_name": "Fruits",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "fruits",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gem-swap",
+    "repo_name": "gem-swap-game",
+    "game_name": "Gem Swap",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "gem",
+      "swap",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ghost-grabber",
+    "repo_name": "ghost-grabber-game",
+    "game_name": "Ghost Grabber",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "ghost",
+      "grabber",
+      "browser"
+    ]
+  },
+  {
+    "slug": "glow-drops",
+    "repo_name": "glow-drops-game",
+    "game_name": "Glow Drops",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "glow",
+      "drops",
+      "browser"
+    ]
+  },
+  {
+    "slug": "grass-defense",
+    "repo_name": "grass-defense-game",
+    "game_name": "Grass Defense",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "grass",
+      "defense",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-gauntlet",
+    "repo_name": "gravity-gauntlet-game",
+    "game_name": "Gravity Gauntlet",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "gravity",
+      "gauntlet",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-golf",
+    "repo_name": "gravity-golf-game",
+    "game_name": "Gravity Golf",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "gravity",
+      "golf",
+      "browser"
+    ]
+  },
+  {
+    "slug": "grid-filler",
+    "repo_name": "grid-filler-game",
+    "game_name": "Grid Filler",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "grid",
+      "filler",
+      "browser"
+    ]
+  },
+  {
+    "slug": "grid-explorer",
+    "repo_name": "grid-explorer-game",
+    "game_name": "Grid Explorer",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "grid",
+      "explorer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "guitar-simulator",
+    "repo_name": "guitar-simulator-game",
+    "game_name": "Guitar Simulator",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "guitar",
+      "simulator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hand-cricket",
+    "repo_name": "hand-cricket-game",
+    "game_name": "Hand Cricket",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "hand",
+      "cricket",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hang-man",
+    "repo_name": "hang-man-game",
+    "game_name": "Hang Man",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "hang",
+      "man",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hangman-2",
+    "repo_name": "hangman-2-game",
+    "game_name": "Hangman",
+    "category": "word",
+    "tags": [
+      "word",
+      "hangman",
+      "browser"
+    ]
+  },
+  {
+    "slug": "harmonic-havoc",
+    "repo_name": "harmonic-havoc-game",
+    "game_name": "Harmonic Havoc",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "harmonic",
+      "havoc",
+      "browser"
+    ]
+  },
+  {
+    "slug": "helix-fall",
+    "repo_name": "helix-fall-game",
+    "game_name": "Helix Fall",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "helix",
+      "fall",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hidden-object",
+    "repo_name": "hidden-object-game",
+    "game_name": "Hidden Object",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "hidden",
+      "object",
+      "browser"
+    ]
+  },
+  {
+    "slug": "history-timeline",
+    "repo_name": "history-timeline-game",
+    "game_name": "History Timeline",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "history",
+      "timeline",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ice-slide",
+    "repo_name": "ice-slide-game",
+    "game_name": "Ice Slide",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "ice",
+      "slide",
+      "browser"
+    ]
+  },
+  {
+    "slug": "infection-spread",
+    "repo_name": "infection-spread-game",
+    "game_name": "Infection Spread",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "infection",
+      "spread",
+      "browser"
+    ]
+  },
+  {
+    "slug": "invisible-box",
+    "repo_name": "invisible-box-game",
+    "game_name": "Invisible Box",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "invisible",
+      "box",
+      "browser"
+    ]
+  },
+  {
+    "slug": "island-survival",
+    "repo_name": "island-survival-game",
+    "game_name": "Island Survival",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "island",
+      "survival",
+      "browser"
+    ]
+  },
+  {
+    "slug": "jet-glide",
+    "repo_name": "jet-glide-game",
+    "game_name": "Jet Glide",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "jet",
+      "glide",
+      "browser"
+    ]
+  },
+  {
+    "slug": "karaoke-star",
+    "repo_name": "karaoke-star-game",
+    "game_name": "Karaoke Star",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "karaoke",
+      "star",
+      "browser"
+    ]
+  },
+  {
+    "slug": "kerning-krusher",
+    "repo_name": "kerning-krusher-game",
+    "game_name": "Kerning Krusher",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "kerning",
+      "krusher",
+      "browser"
+    ]
+  },
+  {
+    "slug": "key-maestro",
+    "repo_name": "key-maestro-game",
+    "game_name": "Key Maestro",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "key",
+      "maestro",
+      "browser"
+    ]
+  },
+  {
+    "slug": "keyboard-race",
+    "repo_name": "keyboard-race-game",
+    "game_name": "Keyboard Race",
+    "category": "running",
+    "tags": [
+      "running",
+      "keyboard",
+      "race",
+      "browser"
+    ]
+  },
+  {
+    "slug": "keyframe-kaleidoscope",
+    "repo_name": "keyframe-kaleidoscope-game",
+    "game_name": "Keyframe Kaleidoscope",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "keyframe",
+      "kaleidoscope",
+      "browser"
+    ]
+  },
+  {
+    "slug": "knife-thrower",
+    "repo_name": "knife-thrower-game",
+    "game_name": "Knife Thrower",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "knife",
+      "thrower",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lantern-path",
+    "repo_name": "lantern-path-game",
+    "game_name": "Lantern Path",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "lantern",
+      "path",
+      "browser"
+    ]
+  },
+  {
+    "slug": "large-num",
+    "repo_name": "large-num-game",
+    "game_name": "Large Num",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "large",
+      "num",
+      "browser"
+    ]
+  },
+  {
+    "slug": "light-bloom-painter",
+    "repo_name": "light-bloom-painter-game",
+    "game_name": "Light Bloom Painter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "light",
+      "bloom",
+      "painter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lights-out-2",
+    "repo_name": "lights-out-2-game",
+    "game_name": "Lights Out",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "lights",
+      "out",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lights-out2",
+    "repo_name": "lights-out2-game",
+    "game_name": "Lights Out2",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "lights",
+      "out2",
+      "browser"
+    ]
+  },
+  {
+    "slug": "local-storage",
+    "repo_name": "local-storage-game",
+    "game_name": "Local Storage",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "local",
+      "storage",
+      "browser"
+    ]
+  },
+  {
+    "slug": "magnetic-fields",
+    "repo_name": "magnetic-fields-game",
+    "game_name": "Magnetic Fields",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "magnetic",
+      "fields",
+      "browser"
+    ]
+  },
+  {
+    "slug": "map-viewer",
+    "repo_name": "map-viewer-game",
+    "game_name": "Map Viewer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "map",
+      "viewer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "margin-misson",
+    "repo_name": "margin-misson-game",
+    "game_name": "Margin Misson",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "margin",
+      "misson",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-challenge",
+    "repo_name": "math-challenge-game",
+    "game_name": "Math Challenge",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "challenge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-duel",
+    "repo_name": "math-duel-game",
+    "game_name": "Math Duel",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "duel",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-rush",
+    "repo_name": "math-rush-game",
+    "game_name": "Math Rush",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "rush",
+      "browser"
+    ]
+  },
+  {
+    "slug": "math-sprint",
+    "repo_name": "math-sprint-game",
+    "game_name": "Math Sprint",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "math",
+      "sprint",
+      "browser"
+    ]
+  },
+  {
+    "slug": "merge-lab",
+    "repo_name": "merge-lab-game",
+    "game_name": "Merge Lab",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "merge",
+      "lab",
+      "browser"
+    ]
+  },
+  {
+    "slug": "minesweeper-2",
+    "repo_name": "minesweeper-2-game",
+    "game_name": "Minesweeper",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "minesweeper",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mirror-math",
+    "repo_name": "mirror-math-game",
+    "game_name": "Mirror Math",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "mirror",
+      "math",
+      "browser"
+    ]
+  },
+  {
+    "slug": "moving-imposter",
+    "repo_name": "moving-imposter-game",
+    "game_name": "Moving Imposter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "moving",
+      "imposter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "music-composer",
+    "repo_name": "music-composer-game",
+    "game_name": "Music Composer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "music",
+      "composer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mystic-merge",
+    "repo_name": "mystic-merge-game",
+    "game_name": "Mystic Merge",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "mystic",
+      "merge",
+      "browser"
+    ]
+  },
+  {
+    "slug": "nebula-navigator",
+    "repo_name": "nebula-navigator-game",
+    "game_name": "Nebula Navigator",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "nebula",
+      "navigator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "neon-orbit",
+    "repo_name": "neon-orbit-game",
+    "game_name": "Neon Orbit",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "neon",
+      "orbit",
+      "browser"
+    ]
+  },
+  {
+    "slug": "neon-tunnel",
+    "repo_name": "neon-tunnel-game",
+    "game_name": "Neon Tunnel",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "neon",
+      "tunnel",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-nexus",
+    "repo_name": "number-nexus-game",
+    "game_name": "Number Nexus",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "number",
+      "nexus",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-pop",
+    "repo_name": "number-pop-game",
+    "game_name": "Number Pop",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "number",
+      "pop",
+      "browser"
+    ]
+  },
+  {
+    "slug": "number-weave",
+    "repo_name": "number-weave-game",
+    "game_name": "Number Weave",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "number",
+      "weave",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ocean-cleaner",
+    "repo_name": "ocean-cleaner-game",
+    "game_name": "Ocean Cleaner",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "ocean",
+      "cleaner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "odd-one-out",
+    "repo_name": "odd-one-out-game",
+    "game_name": "Odd One Out",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "odd",
+      "one",
+      "out",
+      "browser"
+    ]
+  },
+  {
+    "slug": "orb-pop-mania",
+    "repo_name": "orb-pop-mania-game",
+    "game_name": "Orb Pop Mania",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "orb",
+      "pop",
+      "mania",
+      "browser"
+    ]
+  },
+  {
+    "slug": "orb-collector",
+    "repo_name": "orb-collector-game",
+    "game_name": "Orb Collector",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "orb",
+      "collector",
+      "browser"
+    ]
+  },
+  {
+    "slug": "painting-rush",
+    "repo_name": "painting-rush-game",
+    "game_name": "Painting Rush",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "painting",
+      "rush",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pattern-pulse",
+    "repo_name": "pattern-pulse-game",
+    "game_name": "Pattern Pulse",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pattern",
+      "pulse",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pet-care",
+    "repo_name": "pet-care-game",
+    "game_name": "Pet Care",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pet",
+      "care",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-art-creator",
+    "repo_name": "pixel-art-creator-game",
+    "game_name": "Pixel Art Creator",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "art",
+      "creator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-harmony",
+    "repo_name": "pixel-harmony-game",
+    "game_name": "Pixel Harmony",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "harmony",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-painter",
+    "repo_name": "pixel-painter-game",
+    "game_name": "Pixel Painter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "painter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-pirate",
+    "repo_name": "pixel-pirate-game",
+    "game_name": "Pixel Pirate",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "pirate",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-wall-breaker",
+    "repo_name": "pixel-wall-breaker-game",
+    "game_name": "Pixel Wall Breaker",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "wall",
+      "breaker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pixel-array",
+    "repo_name": "pixel-array-game",
+    "game_name": "Pixel Array",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "pixel",
+      "array",
+      "browser"
+    ]
+  },
+  {
+    "slug": "plinko-drop",
+    "repo_name": "plinko-drop-game",
+    "game_name": "Plinko Drop",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "plinko",
+      "drop",
+      "browser"
+    ]
+  },
+  {
+    "slug": "potato-timer",
+    "repo_name": "potato-timer-game",
+    "game_name": "Potato Timer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "potato",
+      "timer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "potion-mixer",
+    "repo_name": "potion-mixer-game",
+    "game_name": "Potion Mixer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "potion",
+      "mixer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "precision-archer",
+    "repo_name": "precision-archer-game",
+    "game_name": "Precision Archer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "precision",
+      "archer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quantum-leap",
+    "repo_name": "quantum-leap-game",
+    "game_name": "Quantum Leap",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quantum",
+      "leap",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quantum-leap-frog",
+    "repo_name": "quantum-leap-frog-game",
+    "game_name": "Quantum Leap Frog",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quantum",
+      "leap",
+      "frog",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quantum-quirk",
+    "repo_name": "quantum-quirk-game",
+    "game_name": "Quantum Quirk",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quantum",
+      "quirk",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quick-draw",
+    "repo_name": "quick-draw-game",
+    "game_name": "Quick Draw",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quick",
+      "draw",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quote",
+    "repo_name": "quote-game",
+    "game_name": "Quote",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "quote",
+      "browser"
+    ]
+  },
+  {
+    "slug": "race-track",
+    "repo_name": "race-track-game",
+    "game_name": "Race Track",
+    "category": "running",
+    "tags": [
+      "running",
+      "race",
+      "track",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rain-ripple-effect",
+    "repo_name": "rain-ripple-effect-game",
+    "game_name": "Rain Ripple Effect",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rain",
+      "ripple",
+      "effect",
+      "browser"
+    ]
+  },
+  {
+    "slug": "render-riot",
+    "repo_name": "render-riot-game",
+    "game_name": "Render Riot",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "render",
+      "riot",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rippleweaver",
+    "repo_name": "rippleweaver-game",
+    "game_name": "Rippleweaver",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rippleweaver",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rock-paper-scissors-2",
+    "repo_name": "rock-paper-scissors-2-game",
+    "game_name": "Rock Paper Scissors",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "rock",
+      "paper",
+      "scissors",
+      "browser"
+    ]
+  },
+  {
+    "slug": "roulette-wheel",
+    "repo_name": "roulette-wheel-game",
+    "game_name": "Roulette Wheel",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "roulette",
+      "wheel",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sand-draw",
+    "repo_name": "sand-draw-game",
+    "game_name": "Sand Draw",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "sand",
+      "draw",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sand-flow-simulator",
+    "repo_name": "sand-flow-simulator-game",
+    "game_name": "Sand Flow Simulator",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "sand",
+      "flow",
+      "simulator",
+      "browser"
+    ]
+  },
+  {
+    "slug": "science-lab",
+    "repo_name": "science-lab-game",
+    "game_name": "Science Lab",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "science",
+      "lab",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sequence-maker",
+    "repo_name": "sequence-maker-game",
+    "game_name": "Sequence Maker",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "sequence",
+      "maker",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sequence-master",
+    "repo_name": "sequence-master-game",
+    "game_name": "Sequence Master",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "sequence",
+      "master",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-shifter",
+    "repo_name": "shape-shifter-game",
+    "game_name": "Shape Shifter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "shape",
+      "shifter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shape-sorter",
+    "repo_name": "shape-sorter-game",
+    "game_name": "Shape Sorter",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "shape",
+      "sorter",
+      "browser"
+    ]
+  },
+  {
+    "slug": "shortest-path",
+    "repo_name": "shortest-path-game",
+    "game_name": "Shortest Path",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "shortest",
+      "path",
+      "browser"
+    ]
+  },
+  {
+    "slug": "simple-platformer",
+    "repo_name": "simple-platformer-game",
+    "game_name": "Simple Platformer",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "simple",
+      "platformer",
+      "browser"
+    ]
+  },
+  {
+    "slug": "skyline-sprint",
+    "repo_name": "skyline-sprint-game",
+    "game_name": "Skyline Sprint",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "skyline",
+      "sprint",
+      "browser"
+    ]
+  },
+  {
+    "slug": "sliding-tile",
+    "repo_name": "sliding-tile-game",
+    "game_name": "Sliding Tile",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "sliding",
+      "tile",
+      "browser"
+    ]
+  },
+  {
+    "slug": "slot-spinner",
+    "repo_name": "slot-spinner-game",
+    "game_name": "Slot Spinner",
+    "category": "skill",
+    "tags": [
+      "skill",
+      "slot",
+      "spinner",
+      "browser"
+    ]
+  },
+  {
+    "slug": "3d-snake",
+    "repo_name": "3d-snake-game",
+    "game_name": "3D Snake",
+    "category": "arcade",
+    "tags": [
+      "snake",
+      "arcade",
+      "classic"
+    ]
+  },
+  {
+    "slug": "balloon-popup",
+    "repo_name": "balloon-popup-game",
+    "game_name": "Balloon Popup",
+    "category": "bubble-shooter",
+    "tags": [
+      "bubble",
+      "pop",
+      "aiming",
+      "arcade"
+    ]
+  },
+  {
+    "slug": "paddle-ball",
+    "repo_name": "paddle-ball-game",
+    "game_name": "Paddle Ball",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "sports",
+      "classic"
+    ]
+  },
+  {
+    "slug": "solitaire",
+    "repo_name": "solitaire-game",
+    "game_name": "Solitaire",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "ball-and-paddle-game",
+    "repo_name": "ball-and-paddle-game-game",
+    "game_name": "Ball And Paddle Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "single-player-solitaire",
+    "repo_name": "single-player-solitaire-game",
+    "game_name": "Single Player Solitaire",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "go-fish",
+    "repo_name": "go-fish-game",
+    "game_name": "Gofish",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "black-jackk",
+    "repo_name": "black-jackk-game",
+    "game_name": "Black Jackk",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "block-ninja",
+    "repo_name": "block-ninja-game",
+    "game_name": "Block Ninja",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "block-vault",
+    "repo_name": "block-vault-game",
+    "game_name": "Block Vault",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "memory-flip",
+    "repo_name": "memory-flip-game",
+    "game_name": "Memory Flip",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "brick-buster",
+    "repo_name": "brick-buster-game",
+    "game_name": "Brick Buster",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "matching-pair",
+    "repo_name": "matching-pair-game",
+    "game_name": "Matching Pair",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "block-building",
+    "repo_name": "block-building-game",
+    "game_name": "Block Building",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "computer-bingo",
+    "repo_name": "computer-bingo-game",
+    "game_name": "Computer Bingo",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "brain-card-game",
+    "repo_name": "brain-card-game-game",
+    "game_name": "Brain Card Game",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "find-the-number",
+    "repo_name": "find-the-number-game",
+    "game_name": "Find The Number",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "smashing-blocks",
+    "repo_name": "smashing-blocks-game",
+    "game_name": "Smashing Blocks",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "my-mine-sweeper",
+    "repo_name": "my-mine-sweeper-game",
+    "game_name": "My Mine Sweeper",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "match-color-game",
+    "repo_name": "match-color-game-game",
+    "game_name": "Match Color Game",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "mine-sweeper-easy",
+    "repo_name": "mine-sweeper-easy-game",
+    "game_name": "Minesweeper Easy",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "tic-tac-toe-game",
+    "repo_name": "tic-tac-toe-game-game",
+    "game_name": "Tic Tac Toe Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "tic-tac-toe-neon",
+    "repo_name": "tic-tac-toe-neon-game",
+    "game_name": "Tic Tac Toe Neon",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "memorization-card",
+    "repo_name": "memorization-card-game",
+    "game_name": "Memorization Card",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "tech-memory-block",
+    "repo_name": "tech-memory-block-game",
+    "game_name": "Tech Memory Block",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "sudoku-light-theme",
+    "repo_name": "sudoku-light-theme-game",
+    "game_name": "Sudoku Light Theme",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "chess-game-computer",
+    "repo_name": "chess-game-computer-game",
+    "game_name": "Chess Game Computer",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "board"
+    ]
+  },
+  {
+    "slug": "memory-matching-game",
+    "repo_name": "memory-matching-game-game",
+    "game_name": "Memory Matching Game",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "color-matching-application",
+    "repo_name": "color-matching-application-game",
+    "game_name": "Color Matching Application",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "tennis",
+    "repo_name": "tennis-game",
+    "game_name": "Tennis",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "sports"
+    ]
+  },
+  {
+    "slug": "8-puzzle",
+    "repo_name": "8-puzzle-game",
+    "game_name": "8 Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "16-puzzle",
+    "repo_name": "16-puzzle-game",
+    "game_name": "16 Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "box-merge",
+    "repo_name": "box-merge-game",
+    "game_name": "Box Merge",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "quick-math",
+    "repo_name": "quick-math-game",
+    "game_name": "Quick Math",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "rock-paper",
+    "repo_name": "rock-paper-game",
+    "game_name": "Rock Paper",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "puzzle-game",
+    "repo_name": "puzzle-game-game",
+    "game_name": "Puzzle Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "mancala-game",
+    "repo_name": "mancala-game-game",
+    "game_name": "Mancala Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "board"
+    ]
+  },
+  {
+    "slug": "numeral-whiz",
+    "repo_name": "numeral-whiz-game",
+    "game_name": "Numeral Whiz",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "airhocky-game",
+    "repo_name": "airhocky-game-game",
+    "game_name": "Airhocky Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "sports"
+    ]
+  },
+  {
+    "slug": "jigsaw-puzzle",
+    "repo_name": "jigsaw-puzzle-game",
+    "game_name": "Jigsaw Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "math-race-game",
+    "repo_name": "math-race-game-game",
+    "game_name": "Math Race Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "am-i-the-number",
+    "repo_name": "am-i-the-number-game",
+    "game_name": "Am I The Number",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "number-recall-game",
+    "repo_name": "number-recall-game-game",
+    "game_name": "Number Recall Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "number-catcher-game",
+    "repo_name": "number-catcher-game-game",
+    "game_name": "Number Catcher Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "slide-master-puzzle",
+    "repo_name": "slide-master-puzzle-game",
+    "game_name": "Slide Master Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "automated-rock-paper-scissor",
+    "repo_name": "automated-rock-paper-scissor-game",
+    "game_name": "Automated Rock Paper Scissor",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "archery",
+    "repo_name": "archery-game",
+    "game_name": "Archery",
+    "category": "shooting",
+    "tags": [
+      "aiming",
+      "target",
+      "skill"
+    ]
+  },
+  {
+    "slug": "sky-jumper",
+    "repo_name": "sky-jumper-game",
+    "game_name": "Sky Jumper",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "memory-card",
+    "repo_name": "memory-card-game",
+    "game_name": "Memory Card",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "path-finder",
+    "repo_name": "path-finder-game",
+    "game_name": "Path Finder",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "css-crossword",
+    "repo_name": "css-crossword-game",
+    "game_name": "CSS Crossword",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "falling-words",
+    "repo_name": "falling-words-game",
+    "game_name": "Falling Words",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "find-the-ball",
+    "repo_name": "find-the-ball-game",
+    "game_name": "Find The Ball",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "crossword-puzzle",
+    "repo_name": "crossword-puzzle-game",
+    "game_name": "Crossword Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "king-sword-runner",
+    "repo_name": "king-sword-runner-game",
+    "game_name": "King Sword Runner",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "memory-cards-game",
+    "repo_name": "memory-cards-game-game",
+    "game_name": "Memory Cards Game",
+    "category": "card",
+    "tags": [
+      "card",
+      "classic",
+      "strategy"
+    ]
+  },
+  {
+    "slug": "tinker-jump-master",
+    "repo_name": "tinker-jump-master-game",
+    "game_name": "Tinker Jump Master",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "tower-defence-game",
+    "repo_name": "tower-defence-game-game",
+    "game_name": "Tower Defence Game",
+    "category": "shooting",
+    "tags": [
+      "aiming",
+      "target",
+      "skill"
+    ]
+  },
+  {
+    "slug": "synonym-typing-game",
+    "repo_name": "synonym-typing-game-game",
+    "game_name": "Synonym Typing Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "path-finder-challenge",
+    "repo_name": "path-finder-challenge-game",
+    "game_name": "Path Finder Challenge",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "find-the-missing-letter",
+    "repo_name": "find-the-missing-letter-game",
+    "game_name": "Find The Missing Letter",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "chess",
+    "repo_name": "chess-game",
+    "game_name": "Chess",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "board"
+    ]
+  },
+  {
+    "slug": "madlibs",
+    "repo_name": "madlibs-game",
+    "game_name": "Madlibs",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "2048-win",
+    "repo_name": "2048-win-game",
+    "game_name": "2048 Win",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "dot-dash",
+    "repo_name": "dot-dash-game",
+    "game_name": "Dot Dash",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "catch-him",
+    "repo_name": "catch-him-game",
+    "game_name": "Catch Him",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "sky-dodge",
+    "repo_name": "sky-dodge-game",
+    "game_name": "Sky Dodge",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "word-chain",
+    "repo_name": "word-chain-game",
+    "game_name": "Wordchain",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "air-balloon",
+    "repo_name": "air-balloon-game",
+    "game_name": "Airballoon",
+    "category": "bubble-shooter",
+    "tags": [
+      "bubble",
+      "pop",
+      "aiming",
+      "arcade"
+    ]
+  },
+  {
+    "slug": "block-game",
+    "repo_name": "block-game-game",
+    "game_name": "Block Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "paddle",
+      "classic"
+    ]
+  },
+  {
+    "slug": "hit-target",
+    "repo_name": "hit-target-game",
+    "game_name": "Hit Target",
+    "category": "shooting",
+    "tags": [
+      "aiming",
+      "target",
+      "skill"
+    ]
+  },
+  {
+    "slug": "shell-game",
+    "repo_name": "shell-game-game",
+    "game_name": "Shell Game",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "space-dash",
+    "repo_name": "space-dash-game",
+    "game_name": "Space Dash",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "spaceducts",
+    "repo_name": "spaceducts-game",
+    "game_name": "Spaceducts",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "catch-craze",
+    "repo_name": "catch-craze-game",
+    "game_name": "Catch Craze",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "flying-fish",
+    "repo_name": "flying-fish-game",
+    "game_name": "Flying Fish",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "quick-click",
+    "repo_name": "quick-click-game",
+    "game_name": "Quick Click",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "riddle-game",
+    "repo_name": "riddle-game-game",
+    "game_name": "Riddle Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "rocket-ride",
+    "repo_name": "rocket-ride-game",
+    "game_name": "Rocket Ride",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "avoider-game",
+    "repo_name": "avoider-game-game",
+    "game_name": "Avoider Game",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "block-dodger",
+    "repo_name": "block-dodger-game",
+    "game_name": "Block Dodger",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "falling-ball",
+    "repo_name": "falling-ball-game",
+    "game_name": "Falling Ball",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "highway-race",
+    "repo_name": "highway-race-game",
+    "game_name": "Highway Race",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "driving",
+      "skill"
+    ]
+  },
+  {
+    "slug": "quick-fingers",
+    "repo_name": "quick-fingers-game",
+    "game_name": "Quickfingers",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "click-circle",
+    "repo_name": "click-circle-game",
+    "game_name": "Click Circle",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "ai-chess-game",
+    "repo_name": "ai-chess-game-game",
+    "game_name": "AI Chess Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "strategy",
+      "board"
+    ]
+  },
+  {
+    "slug": "anime-clicker",
+    "repo_name": "anime-clicker-game",
+    "game_name": "Anime Clicker",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "maze-explorer",
+    "repo_name": "maze-explorer-game",
+    "game_name": "Maze Explorer",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "shadow-runner",
+    "repo_name": "shadow-runner-game",
+    "game_name": "Shadow Runner",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "sky-lift-dash",
+    "repo_name": "sky-lift-dash-game",
+    "game_name": "Sky Lift Dash",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "balloon-buster",
+    "repo_name": "balloon-buster-game",
+    "game_name": "Balloon Buster",
+    "category": "bubble-shooter",
+    "tags": [
+      "bubble",
+      "pop",
+      "aiming",
+      "arcade"
+    ]
+  },
+  {
+    "slug": "cast-and-catch",
+    "repo_name": "cast-and-catch-game",
+    "game_name": "Cast And Catch",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "corona-fighter",
+    "repo_name": "corona-fighter-game",
+    "game_name": "Corona Fighter",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "driving",
+      "skill"
+    ]
+  },
+  {
+    "slug": "cross-the-road",
+    "repo_name": "cross-the-road-game",
+    "game_name": "Cross The Road",
+    "category": "racing",
+    "tags": [
+      "racing",
+      "driving",
+      "skill"
+    ]
+  },
+  {
+    "slug": "drop-dash-game",
+    "repo_name": "drop-dash-game-game",
+    "game_name": "Drop Dash Game",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "musical-memory",
+    "repo_name": "musical-memory-game",
+    "game_name": "Musical Memory",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "reverse-memory",
+    "repo_name": "reverse-memory-game",
+    "game_name": "Reverse Memory",
+    "category": "memory",
+    "tags": [
+      "memory",
+      "matching",
+      "cards"
+    ]
+  },
+  {
+    "slug": "bubble-z-popper",
+    "repo_name": "bubble-z-popper-game",
+    "game_name": "Bubble'z Popper",
+    "category": "bubble-shooter",
+    "tags": [
+      "bubble",
+      "pop",
+      "aiming",
+      "arcade"
+    ]
+  },
+  {
+    "slug": "catch-the-bunny",
+    "repo_name": "catch-the-bunny-game",
+    "game_name": "Catch The Bunny",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "pop-the-bubbles",
+    "repo_name": "pop-the-bubbles-game",
+    "game_name": "Pop The Bubbles",
+    "category": "bubble-shooter",
+    "tags": [
+      "bubble",
+      "pop",
+      "aiming",
+      "arcade"
+    ]
+  },
+  {
+    "slug": "catch-the-circle",
+    "repo_name": "catch-the-circle-game",
+    "game_name": "Catch The Circle",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "witty-word-quest",
+    "repo_name": "witty-word-quest-game",
+    "game_name": "Witty Word Quest",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "word-association",
+    "repo_name": "word-association-game",
+    "game_name": "Word Association",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "astronaunt-runner",
+    "repo_name": "astronaunt-runner-game",
+    "game_name": "Astronaunt Runner",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "catch-the-objects",
+    "repo_name": "catch-the-objects-game",
+    "game_name": "Catch The Objects",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "elemental-riddles",
+    "repo_name": "elemental-riddles-game",
+    "game_name": "Elemental Riddles",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "anagram-word-game",
+    "repo_name": "anagram-word-game-game",
+    "game_name": "Anagram Word Game",
+    "category": "word",
+    "tags": [
+      "word",
+      "logic",
+      "educational"
+    ]
+  },
+  {
+    "slug": "rapid-click-frenzy",
+    "repo_name": "rapid-click-frenzy-game",
+    "game_name": "Rapid Click Frenzy",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "fidget-spinner-game",
+    "repo_name": "fidget-spinner-game-game",
+    "game_name": "Fidget Spinner Game",
+    "category": "clicker",
+    "tags": [
+      "clicker",
+      "idle",
+      "reflex"
+    ]
+  },
+  {
+    "slug": "fruit-catching-game",
+    "repo_name": "fruit-catching-game-game",
+    "game_name": "Fruit Catching Game",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "lost-in-the-maze-3d",
+    "repo_name": "lost-in-the-maze-3d-game",
+    "game_name": "Lost In The Maze 3D",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "mathematics-escape-room",
+    "repo_name": "mathematics-escape-room-game",
+    "game_name": "Mathematicsescaperoom",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "catch-the-falling-stars",
+    "repo_name": "catch-the-falling-stars-game",
+    "game_name": "Catch The Falling Stars",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "catch-the-falling-object",
+    "repo_name": "catch-the-falling-object-game",
+    "game_name": "Catch The Falling Object",
+    "category": "running",
+    "tags": [
+      "runner",
+      "jumping",
+      "skill"
+    ]
+  },
+  {
+    "slug": "guess-the-number",
+    "repo_name": "guess-the-number-game",
+    "game_name": "Guess The Number",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "emoji-puzzle-game",
+    "repo_name": "emoji-puzzle-game-game",
+    "game_name": "Emoji Puzzle Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "maths-sprint-game",
+    "repo_name": "maths-sprint-game-game",
+    "game_name": "Maths Sprint Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "fifteen-puzzle-game",
+    "repo_name": "fifteen-puzzle-game-game",
+    "game_name": "Fifteen Puzzle Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "drag-and-drop-puzzle",
+    "repo_name": "drag-and-drop-puzzle-game",
+    "game_name": "Drag And Drop Puzzle",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "number-guessing-game",
+    "repo_name": "number-guessing-game-game",
+    "game_name": "Number Guessing Game",
+    "category": "puzzle",
+    "tags": [
+      "puzzle",
+      "logic",
+      "number",
+      "classic"
+    ]
+  },
+  {
+    "slug": "rock-paper-scissors-neon",
+    "repo_name": "rock-paper-scissors-neon-game",
+    "game_name": "Rock Paper Scissors Neon",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "rock-paper-scissors-lizard-spock",
+    "repo_name": "rock-paper-scissors-lizard-spock-game",
+    "game_name": "Rock Paper Scissors Lizard Spock",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "strategy",
+      "classic"
+    ]
+  },
+  {
+    "slug": "bow-arrow",
+    "repo_name": "bow-arrow-game",
+    "game_name": "Bow Arrow",
+    "category": "shooting",
+    "tags": [
+      "aiming",
+      "target",
+      "skill"
+    ]
+  },
+  {
+    "slug": "labyrinth",
+    "repo_name": "labyrinth-game",
+    "game_name": "Labyrinth",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "cable-maze",
+    "repo_name": "cable-maze-game",
+    "game_name": "Cable Maze",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "bottle-flip",
+    "repo_name": "bottle-flip-game",
+    "game_name": "Bottle Flip",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aim-training",
+    "repo_name": "aim-training-game",
+    "game_name": "Aim Training",
+    "category": "shooting",
+    "tags": [
+      "aiming",
+      "target",
+      "skill"
+    ]
+  },
+  {
+    "slug": "maze-of-cables",
+    "repo_name": "maze-of-cables-game",
+    "game_name": "Maze Of Cables",
+    "category": "puzzle",
+    "tags": [
+      "maze",
+      "hidden-object",
+      "logic"
+    ]
+  },
+  {
+    "slug": "menja",
+    "repo_name": "menja-game",
+    "game_name": "Menja",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "escape",
+    "repo_name": "escape-game",
+    "game_name": "Escape",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gobblet",
+    "repo_name": "gobblet-game",
+    "game_name": "Gobblet",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "alphabet",
+    "repo_name": "alphabet-game",
+    "game_name": "Alphabet",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "baseball",
+    "repo_name": "baseball-game",
+    "game_name": "Baseball",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "beyonder",
+    "repo_name": "beyonder-game",
+    "game_name": "Beyonder",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gnomedom",
+    "repo_name": "gnomedom-game",
+    "game_name": "Gnomedom",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "pig-game",
+    "repo_name": "pig-game-game",
+    "game_name": "Pig Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "plankman",
+    "repo_name": "plankman-game",
+    "game_name": "Plankman",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "thirteen",
+    "repo_name": "thirteen-game",
+    "game_name": "Thirteen",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "namefate",
+    "repo_name": "namefate-game",
+    "game_name": "Namefate",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bird-game",
+    "repo_name": "bird-game-game",
+    "game_name": "Bird Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "cat-goric",
+    "repo_name": "cat-goric-game",
+    "game_name": "Cat Goric",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "destroyer",
+    "repo_name": "destroyer-game",
+    "game_name": "Destroyer",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dice-game",
+    "repo_name": "dice-game-game",
+    "game_name": "Dice Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flip-coin",
+    "repo_name": "flip-coin-game",
+    "game_name": "Flip Coin",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "free-bird",
+    "repo_name": "free-bird-game",
+    "game_name": "Free Bird",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "guess-num",
+    "repo_name": "guess-num-game",
+    "game_name": "Guess Num",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hit-or-miss",
+    "repo_name": "hit-or-miss-game",
+    "game_name": "Hitormiss",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lamb-lane",
+    "repo_name": "lamb-lane-game",
+    "game_name": "Lamb Lane",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ludo-game",
+    "repo_name": "ludo-game-game",
+    "game_name": "Ludo Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mastemind",
+    "repo_name": "mastemind-game",
+    "game_name": "Mastemind",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mechanica",
+    "repo_name": "mechanica-game",
+    "game_name": "Mechanica",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mini-golf",
+    "repo_name": "mini-golf-game",
+    "game_name": "Mini Golf",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "risky-nav",
+    "repo_name": "risky-nav-game",
+    "game_name": "Risky Nav",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "atlas-game",
+    "repo_name": "atlas-game-game",
+    "game_name": "Atlas Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "blink-beat",
+    "repo_name": "blink-beat-game",
+    "game_name": "Blink Beat",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "boom-blast",
+    "repo_name": "boom-blast-game",
+    "game_name": "Boom Blast",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "brain-game",
+    "repo_name": "brain-game-game",
+    "game_name": "Brain Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-swap",
+    "repo_name": "color-swap-game",
+    "game_name": "Color Swap",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fight-game",
+    "repo_name": "fight-game-game",
+    "game_name": "Fight Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ghost-surf",
+    "repo_name": "ghost-surf-game",
+    "game_name": "Ghost Surf",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lighthouse",
+    "repo_name": "lighthouse-game",
+    "game_name": "Lighthouse",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mr-fake-game",
+    "repo_name": "mr-fake-game-game",
+    "game_name": "Mrfakegame",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "3d-box-game",
+    "repo_name": "3d-box-game-game",
+    "game_name": "3D Box Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ant-smasher",
+    "repo_name": "ant-smasher-game",
+    "game_name": "Ant Smasher",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bounce-ball",
+    "repo_name": "bounce-ball-game",
+    "game_name": "Bounce Ball",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-blast",
+    "repo_name": "color-blast-game",
+    "game_name": "Color Blast",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "doodle-draw",
+    "repo_name": "doodle-draw-game",
+    "game_name": "Doodle Draw",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dot-connect",
+    "repo_name": "dot-connect-game",
+    "game_name": "Dot Connect",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "eco-warrior",
+    "repo_name": "eco-warrior-game",
+    "game_name": "Eco Warrior",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "escape-room",
+    "repo_name": "escape-room-game",
+    "game_name": "Escape Room",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "flames-game",
+    "repo_name": "flames-game-game",
+    "game_name": "Flames Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "four-in-row",
+    "repo_name": "four-in-row-game",
+    "game_name": "Four In Row",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "highway-404",
+    "repo_name": "highway-404-game",
+    "game_name": "Highway 404",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "quiz-it-out",
+    "repo_name": "quiz-it-out-game",
+    "game_name": "Quiz It Out",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "rectangular",
+    "repo_name": "rectangular-game",
+    "game_name": "Rectangular",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "virtual-pet",
+    "repo_name": "virtual-pet-game",
+    "game_name": "Virtual Pet",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "which-color",
+    "repo_name": "which-color-game",
+    "game_name": "Which Color",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aero-acrobat",
+    "repo_name": "aero-acrobat-game",
+    "game_name": "Aero Acrobat",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-turner",
+    "repo_name": "color-turner-game",
+    "game_name": "Color Turner",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "four-in-a-row",
+    "repo_name": "four-in-a-row-game",
+    "game_name": "Four in a Row",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dot-box-game",
+    "repo_name": "dot-box-game-game",
+    "game_name": "Dot Box Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hit-the-mole",
+    "repo_name": "hit-the-mole-game",
+    "game_name": "Hit The Mole",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "magic-8-ball",
+    "repo_name": "magic-8-ball-game",
+    "game_name": "Magic 8 Ball",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "mamba-mayhem",
+    "repo_name": "mamba-mayhem-game",
+    "game_name": "Mamba Mayhem",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "aqua-sort-game",
+    "repo_name": "aqua-sort-game-game",
+    "game_name": "Aquasort Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "bunny-is-lost",
+    "repo_name": "bunny-is-lost-game",
+    "game_name": "Bunny Is Lost",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "circuit-craze",
+    "repo_name": "circuit-craze-game",
+    "game_name": "Circuit Craze",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "color-shifter",
+    "repo_name": "color-shifter-game",
+    "game_name": "Color Shifter",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "dsa-quiz-game",
+    "repo_name": "dsa-quiz-game-game",
+    "game_name": "DSA Quiz Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "glitch-buster",
+    "repo_name": "glitch-buster-game",
+    "game_name": "Glitch Buster",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hexsweep-game",
+    "repo_name": "hexsweep-game-game",
+    "game_name": "Hexsweep Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hide-and-seek",
+    "repo_name": "hide-and-seek-game",
+    "game_name": "Hide And Seek",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "hit-your-friend",
+    "repo_name": "hit-your-friend-game",
+    "game_name": "Hityourfriend",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "johnny-smiter",
+    "repo_name": "johnny-smiter-game",
+    "game_name": "Johnny Smiter",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "maximise-boxes",
+    "repo_name": "maximise-boxes-game",
+    "game_name": "Maximiseboxes",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "monster-maker",
+    "repo_name": "monster-maker-game",
+    "game_name": "Monster Maker",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "musical-floor",
+    "repo_name": "musical-floor-game",
+    "game_name": "Musical Floor",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "platform-game",
+    "repo_name": "platform-game-game",
+    "game_name": "Platform Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "puzzel-winner",
+    "repo_name": "puzzel-winner-game",
+    "game_name": "Puzzel Winner",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "save-princess",
+    "repo_name": "save-princess-game",
+    "game_name": "Save Princess",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "treasure-hunt",
+    "repo_name": "treasure-hunt-game",
+    "game_name": "Treasure Hunt",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "alien-invasion",
+    "repo_name": "alien-invasion-game",
+    "game_name": "Alien Invasion",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ball-fall-game",
+    "repo_name": "ball-fall-game-game",
+    "game_name": "Ball Fall Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "ball-and-glass",
+    "repo_name": "ball-and-glass-game",
+    "game_name": "Ball And Glass",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "crack-the-code",
+    "repo_name": "crack-the-code-game",
+    "game_name": "Crack The Code",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "elemental-flux",
+    "repo_name": "elemental-flux-game",
+    "game_name": "Elemental Flux",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "emoji-intruder",
+    "repo_name": "emoji-intruder-game",
+    "game_name": "Emoji Intruder",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "fruity-fortune",
+    "repo_name": "fruity-fortune-game",
+    "game_name": "Fruity Fortune",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "go-fish-master",
+    "repo_name": "go-fish-master-game",
+    "game_name": "Go Fish Master",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "gravity-dropss",
+    "repo_name": "gravity-dropss-game",
+    "game_name": "Gravity Dropss",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "guess-the-ball",
+    "repo_name": "guess-the-ball-game",
+    "game_name": "Guess The Ball",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "guess-the-song",
+    "repo_name": "guess-the-song-game",
+    "game_name": "Guess The Song",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "lonely-phantom",
+    "repo_name": "lonely-phantom-game",
+    "game_name": "Lonely Phantom",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "truth-and-dare",
+    "repo_name": "truth-and-dare-game",
+    "game_name": "Truth And Dare",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "box-in-air-game",
+    "repo_name": "box-in-air-game-game",
+    "game_name": "Box In Air Game",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  },
+  {
+    "slug": "earth-destroyer",
+    "repo_name": "earth-destroyer-game",
+    "game_name": "Earth Destroyer",
+    "category": "arcade",
+    "tags": [
+      "arcade",
+      "skill",
+      "browser"
+    ]
+  }
+]
