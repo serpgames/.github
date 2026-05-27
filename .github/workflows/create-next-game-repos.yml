@@ -115,7 +115,7 @@ jobs:
 
           function normalizeEntry(entry) {
             const slug = slugify(entry.slug);
-            const repoName = slugify(entry.repo_name || (slug === "badicecream-2" ? "bad-ice-cream-2-game" : `${slug}-game`));
+            const repoName = slugify(entry.repo_name || (slug === "badicecream-2" ? "bad-ice-cream-2-game" : (slug.endsWith("-game") ? slug : `${slug}-game`)));
             const gameName = String(entry.game_name || titleFromSlug(slug)).trim();
             const category = titleCase(entry.category || "Games");
             const tagList = Array.isArray(entry.tags) ? entry.tags : String(entry.tags || "").split(/[|,]/);
