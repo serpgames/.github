@@ -1,0 +1,25 @@
+name: Quick Create Game Repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "SERP Games slug, for example doodle-jump"
+        required: true
+        type: string
+      create_gist:
+        description: "Also create a README gist"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  create-game-repo:
+    uses: ./.github/workflows/create-game-repo.yml
+    with:
+      slug: ${{ inputs.slug }}
+      create_gist: ${{ inputs.create_gist }}
+    secrets: inherit
