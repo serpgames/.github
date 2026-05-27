@@ -35,9 +35,6 @@ jobs:
       matrix: ${{ steps.plan.outputs.matrix }}
       count: ${{ steps.plan.outputs.count }}
     steps:
-      - name: Check out queue
-        uses: actions/checkout@v4
-
       - name: Select next missing repos
         id: plan
         env:
@@ -85,19 +82,40 @@ jobs:
             .map((item) => slugify(item))
             .filter(Boolean);
 
-          async function repoExists(repoName) {
-            const response = await fetch(`https://api.github.com/repos/${owner}/${repoName}`, { headers });
-            if (response.status === 404) return false;
-            if (!response.ok) {
-              const details = await response.text();
-              throw new Error(`Could not check ${owner}/${repoName}: ${response.status} ${details}`);
+          async function requestJson(url) {
+            const response = await fetch(url, { headers });
+            const text = await response.text();
+            let body = text;
+            if (text) {
+              try { body = JSON.parse(text); } catch {}
             }
-            return true;
+            if (!response.ok) {
+              const detail = typeof body === "string" ? body : JSON.stringify(body);
+              throw new Error(`${response.status} ${response.statusText} ${url} ${detail}`);
+            }
+            return body;
+          }
+
+          async function readSharedQueue() {
+            const file = await requestJson(`https://api.github.com/repos/${owner}/.github/contents/.github/templates/game-repo-queue.json?ref=main`);
+            if (file.encoding !== "base64") throw new Error(`Unsupported queue encoding: ${file.encoding}`);
+            return JSON.parse(Buffer.from(file.content.replace(/\n/g, ""), "base64").toString("utf8"));
+          }
+
+          async function readExistingRepoNames() {
+            const names = new Set();
+            for (let page = 1; ; page += 1) {
+              const repos = await requestJson(`https://api.github.com/orgs/${owner}/repos?type=public&per_page=100&page=${page}`);
+              if (!Array.isArray(repos) || repos.length === 0) break;
+              for (const repo of repos) names.add(repo.name);
+              if (repos.length < 100) break;
+            }
+            return names;
           }
 
           function normalizeEntry(entry) {
             const slug = slugify(entry.slug);
-            const repoName = slugify(entry.repo_name || `${slug}-game`);
+            const repoName = slugify(entry.repo_name || (slug === "badicecream-2" ? "bad-ice-cream-2-game" : `${slug}-game`));
             const gameName = String(entry.game_name || titleFromSlug(slug)).trim();
             const category = titleCase(entry.category || "Games");
             const tagList = Array.isArray(entry.tags) ? entry.tags : String(entry.tags || "").split(/[|,]/);
@@ -111,7 +129,8 @@ jobs:
             const customSlugs = splitSlugs(process.env.INPUT_SLUGS || "");
             const queue = customSlugs.length
               ? customSlugs.map((slug) => ({ slug }))
-              : JSON.parse(fs.readFileSync(".github/templates/game-repo-queue.json", "utf8"));
+              : await readSharedQueue();
+            const existingRepoNames = await readExistingRepoNames();
 
             const seen = new Set();
             const normalized = queue
@@ -127,7 +146,7 @@ jobs:
             const later = [];
 
             for (const entry of normalized) {
-              if (await repoExists(entry.repo_name)) {
+              if (existingRepoNames.has(entry.repo_name)) {
                 existing.push(entry);
               } else if (selected.length < limit) {
                 selected.push(entry);
@@ -136,40 +155,33 @@ jobs:
               }
             }
 
-            const matrix = { include: selected };
-            fs.appendFileSync(process.env.GITHUB_OUTPUT, `matrix=${JSON.stringify(matrix)}\n`);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `matrix=${JSON.stringify({ include: selected })}\n`);
             fs.appendFileSync(process.env.GITHUB_OUTPUT, `count=${selected.length}\n`);
 
+            const dryRun = String(process.env.INPUT_DRY_RUN).toLowerCase() === "true";
             const lines = [
               "## Next game repo batch",
               "",
-              `- Mode: ${String(process.env.INPUT_DRY_RUN).toLowerCase() === "true" ? "dry run" : "create"}`,
-              `- Existing repos skipped: ${existing.length}`,
+              `- Mode: ${dryRun ? "dry run" : "create"}`,
+              `- Existing queued repos skipped: ${existing.length}`,
               `- Selected for this batch: ${selected.length}`,
-              `- Remaining after this batch: ${later.length}`,
+              `- Remaining queued after this batch: ${later.length}`,
               "",
             ];
 
             if (selected.length) {
               lines.push("### Selected", "");
-              for (const entry of selected) {
-                lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
-              }
+              for (const entry of selected) lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
               lines.push("");
             }
 
             if (later.length) {
               lines.push("### Next Up After This Batch", "");
-              for (const entry of later.slice(0, 10)) {
-                lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
-              }
+              for (const entry of later.slice(0, 10)) lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
               lines.push("");
             }
 
-            if (!selected.length) {
-              lines.push("No missing repos found for the selected queue.", "");
-            }
-
+            if (!selected.length) lines.push("No missing repos found for the selected queue.", "");
             fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n"));
           }
 
