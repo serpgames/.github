@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       game_name:
-        description: "Display game name, for example Doodle Jump"
-        required: true
+        description: "Optional display game name. Leave blank to derive from slug."
+        required: false
+        default: ""
         type: string
       slug:
         description: "Canonical SERP Games slug, for example doodle-jump"
@@ -79,7 +80,8 @@ on:
   workflow_call:
     inputs:
       game_name:
-        required: true
+        required: false
+        default: ""
         type: string
       slug:
         required: true
@@ -295,10 +297,9 @@ jobs:
           }
 
           async function main() {
-            const gameName = input("INPUT_GAME_NAME");
-            if (!gameName) throw new Error("game_name is required.");
             const slug = slugify(input("INPUT_SLUG"));
             if (!slug) throw new Error("slug is required.");
+            const gameName = input("INPUT_GAME_NAME") || titleFromRepo(slug);
             const repoName = slugify(input("INPUT_REPO_NAME") || `${slug}-game`);
             if (!/^[a-z0-9][a-z0-9.-]*[a-z0-9]$/.test(repoName)) throw new Error(`Invalid repo_name: ${repoName}`);
 
