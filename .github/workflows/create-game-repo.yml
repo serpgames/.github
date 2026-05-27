@@ -300,7 +300,7 @@ jobs:
             const slug = slugify(input("INPUT_SLUG"));
             if (!slug) throw new Error("slug is required.");
             const gameName = input("INPUT_GAME_NAME") || titleFromRepo(slug);
-            const repoName = slugify(input("INPUT_REPO_NAME") || `${slug}-game`);
+            const repoName = slugify(input("INPUT_REPO_NAME") || (slug.endsWith("-game") ? slug : `${slug}-game`));
             if (!/^[a-z0-9][a-z0-9.-]*[a-z0-9]$/.test(repoName)) throw new Error(`Invalid repo_name: ${repoName}`);
 
             const playUrl = `https://games.serp.co/games/${slug}/`;
