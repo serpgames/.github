@@ -171,7 +171,7 @@
   },
   {
     "slug": "dinosaur-game",
-    "repo_name": "dinosaur-game-game",
+    "repo_name": "dinosaur-game",
     "game_name": "Dinosaur Game",
     "category": "board",
     "tags": [
@@ -580,7 +580,7 @@
   },
   {
     "slug": "kittens-game",
-    "repo_name": "kittens-game-game",
+    "repo_name": "kittens-game",
     "game_name": "Kittens Game",
     "category": "strategy",
     "tags": [
@@ -611,7 +611,7 @@
   },
   {
     "slug": "maze-game",
-    "repo_name": "maze-game-game",
+    "repo_name": "maze-game",
     "game_name": "Maze Game",
     "category": "puzzle",
     "tags": [
@@ -829,7 +829,7 @@
   },
   {
     "slug": "set-game",
-    "repo_name": "set-game-game",
+    "repo_name": "set-game",
     "game_name": "Set Game",
     "category": "puzzle",
     "tags": [
@@ -1151,7 +1151,7 @@
   },
   {
     "slug": "whack-a-mole-game",
-    "repo_name": "whack-a-mole-game-game",
+    "repo_name": "whack-a-mole-game",
     "game_name": "Whack A Mole Game",
     "category": "skill",
     "tags": [
@@ -1629,7 +1629,7 @@
   },
   {
     "slug": "connect-four-game",
-    "repo_name": "connect-four-game-game",
+    "repo_name": "connect-four-game",
     "game_name": "Connect Four Game",
     "category": "board",
     "tags": [
@@ -1665,7 +1665,7 @@
   },
   {
     "slug": "doodle-jump-game",
-    "repo_name": "doodle-jump-game-game",
+    "repo_name": "doodle-jump-game",
     "game_name": "Doodle Jump Game",
     "category": "running",
     "tags": [
@@ -1701,7 +1701,7 @@
   },
   {
     "slug": "emoji-match-game",
-    "repo_name": "emoji-match-game-game",
+    "repo_name": "emoji-match-game",
     "game_name": "Emoji Match Game",
     "category": "puzzle",
     "tags": [
@@ -1774,7 +1774,7 @@
   },
   {
     "slug": "flappy-bird-game",
-    "repo_name": "flappy-bird-game-game",
+    "repo_name": "flappy-bird-game",
     "game_name": "Flappy Bird Game",
     "category": "running",
     "tags": [
@@ -2061,7 +2061,7 @@
   },
   {
     "slug": "memory-game",
-    "repo_name": "memory-game-game",
+    "repo_name": "memory-game",
     "game_name": "Memory Game",
     "category": "puzzle",
     "tags": [
@@ -2096,7 +2096,7 @@
   },
   {
     "slug": "minesweeper-game",
-    "repo_name": "minesweeper-game-game",
+    "repo_name": "minesweeper-game",
     "game_name": "Minesweeper Game",
     "category": "puzzle",
     "tags": [
@@ -2226,7 +2226,7 @@
   },
   {
     "slug": "pong-game",
-    "repo_name": "pong-game-game",
+    "repo_name": "pong-game",
     "game_name": "Pong Game",
     "category": "sports",
     "tags": [
@@ -2309,7 +2309,7 @@
   },
   {
     "slug": "reaction-timer-game",
-    "repo_name": "reaction-timer-game-game",
+    "repo_name": "reaction-timer-game",
     "game_name": "Reaction Timer Game",
     "category": "skill",
     "tags": [
@@ -2416,7 +2416,7 @@
   },
   {
     "slug": "simon-game",
-    "repo_name": "simon-game-game",
+    "repo_name": "simon-game",
     "game_name": "Simon Game",
     "category": "skill",
     "tags": [
@@ -2427,7 +2427,7 @@
   },
   {
     "slug": "simon-says-game",
-    "repo_name": "simon-says-game-game",
+    "repo_name": "simon-says-game",
     "game_name": "Simon Says Game",
     "category": "skill",
     "tags": [
@@ -2485,7 +2485,7 @@
   },
   {
     "slug": "snake-game",
-    "repo_name": "snake-game-game",
+    "repo_name": "snake-game",
     "game_name": "Snake Game",
     "category": "skill",
     "tags": [
@@ -2751,7 +2751,7 @@
   },
   {
     "slug": "word-length-game",
-    "repo_name": "word-length-game-game",
+    "repo_name": "word-length-game",
     "game_name": "Word Length Game",
     "category": "word",
     "tags": [
@@ -2809,7 +2809,7 @@
   },
   {
     "slug": "chess-game",
-    "repo_name": "chess-game-game",
+    "repo_name": "chess-game",
     "game_name": "Chess Game",
     "category": "board",
     "tags": [
@@ -2832,7 +2832,7 @@
   },
   {
     "slug": "solitaire-game",
-    "repo_name": "solitaire-game-game",
+    "repo_name": "solitaire-game",
     "game_name": "Solitaire Game",
     "category": "board",
     "tags": [
@@ -2843,7 +2843,7 @@
   },
   {
     "slug": "sudoku-game",
-    "repo_name": "sudoku-game-game",
+    "repo_name": "sudoku-game",
     "game_name": "Sudoku Game",
     "category": "puzzle",
     "tags": [
@@ -2866,7 +2866,7 @@
   },
   {
     "slug": "2048-game",
-    "repo_name": "2048-game-game",
+    "repo_name": "2048-game",
     "game_name": "2048 Game",
     "category": "puzzle",
     "tags": [
@@ -2891,7 +2891,7 @@
   },
   {
     "slug": "hangman-game",
-    "repo_name": "hangman-game-game",
+    "repo_name": "hangman-game",
     "game_name": "Hangman Game",
     "category": "word",
     "tags": [
@@ -2914,7 +2914,7 @@
   },
   {
     "slug": "archery-game",
-    "repo_name": "archery-game-game",
+    "repo_name": "archery-game",
     "game_name": "Archery Game",
     "category": "arcade",
     "tags": [
@@ -2925,7 +2925,7 @@
   },
   {
     "slug": "speed-typing-game",
-    "repo_name": "speed-typing-game-game",
+    "repo_name": "speed-typing-game",
     "game_name": "Speed Typing Game",
     "category": "word",
     "tags": [
@@ -2937,7 +2937,7 @@
   },
   {
     "slug": "breakout-game",
-    "repo_name": "breakout-game-game",
+    "repo_name": "breakout-game",
     "game_name": "Breakout Game",
     "category": "skill",
     "tags": [
@@ -2948,7 +2948,7 @@
   },
   {
     "slug": "ping-pong-game",
-    "repo_name": "ping-pong-game-game",
+    "repo_name": "ping-pong-game",
     "game_name": "Ping Pong Game",
     "category": "sports",
     "tags": [
@@ -2972,7 +2972,7 @@
   },
   {
     "slug": "tilting-maze-game",
-    "repo_name": "tilting-maze-game-game",
+    "repo_name": "tilting-maze-game",
     "game_name": "Tilting Maze Game",
     "category": "puzzle",
     "tags": [
@@ -2984,7 +2984,7 @@
   },
   {
     "slug": "memory-card-game",
-    "repo_name": "memory-card-game-game",
+    "repo_name": "memory-card-game",
     "game_name": "Memory Card Game",
     "category": "board",
     "tags": [
@@ -2996,7 +2996,7 @@
   },
   {
     "slug": "type-number-guessing-game",
-    "repo_name": "type-number-guessing-game-game",
+    "repo_name": "type-number-guessing-game",
     "game_name": "Type Number Guessing Game",
     "category": "arcade",
     "tags": [
@@ -3009,7 +3009,7 @@
   },
   {
     "slug": "insect-catch-game",
-    "repo_name": "insect-catch-game-game",
+    "repo_name": "insect-catch-game",
     "game_name": "Insect Catch Game",
     "category": "skill",
     "tags": [
@@ -3021,7 +3021,7 @@
   },
   {
     "slug": "typing-game",
-    "repo_name": "typing-game-game",
+    "repo_name": "typing-game",
     "game_name": "Typing Game",
     "category": "word",
     "tags": [
@@ -3045,7 +3045,7 @@
   },
   {
     "slug": "shape-clicker-game",
-    "repo_name": "shape-clicker-game-game",
+    "repo_name": "shape-clicker-game",
     "game_name": "Shape Clicker Game",
     "category": "idle",
     "tags": [
@@ -3057,7 +3057,7 @@
   },
   {
     "slug": "speak-number-guessing-game",
-    "repo_name": "speak-number-guessing-game-game",
+    "repo_name": "speak-number-guessing-game",
     "game_name": "Speak Number Guessing Game",
     "category": "arcade",
     "tags": [
@@ -3070,7 +3070,7 @@
   },
   {
     "slug": "fruit-slicer-game",
-    "repo_name": "fruit-slicer-game-game",
+    "repo_name": "fruit-slicer-game",
     "game_name": "Fruit Slicer Game",
     "category": "arcade",
     "tags": [
@@ -3082,7 +3082,7 @@
   },
   {
     "slug": "quiz-game",
-    "repo_name": "quiz-game-game",
+    "repo_name": "quiz-game",
     "game_name": "Quiz Game",
     "category": "arcade",
     "tags": [
@@ -3093,7 +3093,7 @@
   },
   {
     "slug": "emoji-catcher-game",
-    "repo_name": "emoji-catcher-game-game",
+    "repo_name": "emoji-catcher-game",
     "game_name": "Emoji Catcher Game",
     "category": "skill",
     "tags": [
@@ -3105,7 +3105,7 @@
   },
   {
     "slug": "sliding-puzzle-game",
-    "repo_name": "sliding-puzzle-game-game",
+    "repo_name": "sliding-puzzle-game",
     "game_name": "Sliding Puzzle Game",
     "category": "puzzle",
     "tags": [
@@ -3259,7 +3259,7 @@
   },
   {
     "slug": "adventure-game",
-    "repo_name": "adventure-game-game",
+    "repo_name": "adventure-game",
     "game_name": "Adventure Game",
     "category": "skill",
     "tags": [
@@ -3391,7 +3391,7 @@
   },
   {
     "slug": "card-game",
-    "repo_name": "card-game-game",
+    "repo_name": "card-game",
     "game_name": "Card Game",
     "category": "board",
     "tags": [
@@ -3403,7 +3403,7 @@
   },
   {
     "slug": "chain-game",
-    "repo_name": "chain-game-game",
+    "repo_name": "chain-game",
     "game_name": "Chain Game",
     "category": "skill",
     "tags": [
@@ -3512,7 +3512,7 @@
   },
   {
     "slug": "color-guessing-game",
-    "repo_name": "color-guessing-game-game",
+    "repo_name": "color-guessing-game",
     "game_name": "Color Guessing Game",
     "category": "puzzle",
     "tags": [
@@ -3632,7 +3632,7 @@
   },
   {
     "slug": "concentration-game",
-    "repo_name": "concentration-game-game",
+    "repo_name": "concentration-game",
     "game_name": "Concentration Game",
     "category": "skill",
     "tags": [
@@ -3680,7 +3680,7 @@
   },
   {
     "slug": "drawing-game",
-    "repo_name": "drawing-game-game",
+    "repo_name": "drawing-game",
     "game_name": "Drawing Game",
     "category": "skill",
     "tags": [
@@ -3718,7 +3718,7 @@
   },
   {
     "slug": "emojie-game",
-    "repo_name": "emojie-game-game",
+    "repo_name": "emojie-game",
     "game_name": "Emojie Game",
     "category": "skill",
     "tags": [
@@ -3730,7 +3730,7 @@
   },
   {
     "slug": "escape-game",
-    "repo_name": "escape-game-game",
+    "repo_name": "escape-game",
     "game_name": "Escape Game",
     "category": "skill",
     "tags": [
@@ -3803,7 +3803,7 @@
   },
   {
     "slug": "guess-game",
-    "repo_name": "guess-game-game",
+    "repo_name": "guess-game",
     "game_name": "Guess Game",
     "category": "skill",
     "tags": [
@@ -3826,7 +3826,7 @@
   },
   {
     "slug": "jigsaw-game",
-    "repo_name": "jigsaw-game-game",
+    "repo_name": "jigsaw-game",
     "game_name": "Jigsaw Game",
     "category": "skill",
     "tags": [
@@ -3887,7 +3887,7 @@
   },
   {
     "slug": "line-game",
-    "repo_name": "line-game-game",
+    "repo_name": "line-game",
     "game_name": "Line Game",
     "category": "skill",
     "tags": [
@@ -3899,7 +3899,7 @@
   },
   {
     "slug": "link-game",
-    "repo_name": "link-game-game",
+    "repo_name": "link-game",
     "game_name": "Link Game",
     "category": "skill",
     "tags": [
@@ -3923,7 +3923,7 @@
   },
   {
     "slug": "math-game",
-    "repo_name": "math-game-game",
+    "repo_name": "math-game",
     "game_name": "Math Game",
     "category": "skill",
     "tags": [
@@ -3971,7 +3971,7 @@
   },
   {
     "slug": "number-game",
-    "repo_name": "number-game-game",
+    "repo_name": "number-game",
     "game_name": "Number Game",
     "category": "skill",
     "tags": [
@@ -3996,7 +3996,7 @@
   },
   {
     "slug": "painter-game",
-    "repo_name": "painter-game-game",
+    "repo_name": "painter-game",
     "game_name": "Painter Game",
     "category": "skill",
     "tags": [
@@ -4044,7 +4044,7 @@
   },
   {
     "slug": "piano-game",
-    "repo_name": "piano-game-game",
+    "repo_name": "piano-game",
     "game_name": "Piano Game",
     "category": "skill",
     "tags": [
@@ -4106,7 +4106,7 @@
   },
   {
     "slug": "reflex-game",
-    "repo_name": "reflex-game-game",
+    "repo_name": "reflex-game",
     "game_name": "Reflex Game",
     "category": "skill",
     "tags": [
@@ -4130,7 +4130,7 @@
   },
   {
     "slug": "rpg-game",
-    "repo_name": "rpg-game-game",
+    "repo_name": "rpg-game",
     "game_name": "Rpg Game",
     "category": "skill",
     "tags": [
@@ -4188,7 +4188,7 @@
   },
   {
     "slug": "tamagochi-game",
-    "repo_name": "tamagochi-game-game",
+    "repo_name": "tamagochi-game",
     "game_name": "Tamagochi Game",
     "category": "skill",
     "tags": [
@@ -4213,7 +4213,7 @@
   },
   {
     "slug": "timing-game",
-    "repo_name": "timing-game-game",
+    "repo_name": "timing-game",
     "game_name": "Timing Game",
     "category": "skill",
     "tags": [
@@ -4346,7 +4346,7 @@
   },
   {
     "slug": "worlds-easiest-game",
-    "repo_name": "worlds-easiest-game-game",
+    "repo_name": "worlds-easiest-game",
     "game_name": "Worlds Easiest Game",
     "category": "skill",
     "tags": [
@@ -6017,7 +6017,7 @@
   },
   {
     "slug": "ball-and-paddle-game",
-    "repo_name": "ball-and-paddle-game-game",
+    "repo_name": "ball-and-paddle-game",
     "game_name": "Ball And Paddle Game",
     "category": "arcade",
     "tags": [
@@ -6138,7 +6138,7 @@
   },
   {
     "slug": "brain-card-game",
-    "repo_name": "brain-card-game-game",
+    "repo_name": "brain-card-game",
     "game_name": "Brain Card Game",
     "category": "card",
     "tags": [
@@ -6184,7 +6184,7 @@
   },
   {
     "slug": "match-color-game",
-    "repo_name": "match-color-game-game",
+    "repo_name": "match-color-game",
     "game_name": "Match Color Game",
     "category": "memory",
     "tags": [
@@ -6207,7 +6207,7 @@
   },
   {
     "slug": "tic-tac-toe-game",
-    "repo_name": "tic-tac-toe-game-game",
+    "repo_name": "tic-tac-toe-game",
     "game_name": "Tic Tac Toe Game",
     "category": "puzzle",
     "tags": [
@@ -6274,7 +6274,7 @@
   },
   {
     "slug": "memory-matching-game",
-    "repo_name": "memory-matching-game-game",
+    "repo_name": "memory-matching-game",
     "game_name": "Memory Matching Game",
     "category": "memory",
     "tags": [
@@ -6366,7 +6366,7 @@
   },
   {
     "slug": "puzzle-game",
-    "repo_name": "puzzle-game-game",
+    "repo_name": "puzzle-game",
     "game_name": "Puzzle Game",
     "category": "puzzle",
     "tags": [
@@ -6378,7 +6378,7 @@
   },
   {
     "slug": "mancala-game",
-    "repo_name": "mancala-game-game",
+    "repo_name": "mancala-game",
     "game_name": "Mancala Game",
     "category": "puzzle",
     "tags": [
@@ -6401,7 +6401,7 @@
   },
   {
     "slug": "airhocky-game",
-    "repo_name": "airhocky-game-game",
+    "repo_name": "airhocky-game",
     "game_name": "Airhocky Game",
     "category": "arcade",
     "tags": [
@@ -6424,7 +6424,7 @@
   },
   {
     "slug": "math-race-game",
-    "repo_name": "math-race-game-game",
+    "repo_name": "math-race-game",
     "game_name": "Math Race Game",
     "category": "puzzle",
     "tags": [
@@ -6448,7 +6448,7 @@
   },
   {
     "slug": "number-recall-game",
-    "repo_name": "number-recall-game-game",
+    "repo_name": "number-recall-game",
     "game_name": "Number Recall Game",
     "category": "puzzle",
     "tags": [
@@ -6460,7 +6460,7 @@
   },
   {
     "slug": "number-catcher-game",
-    "repo_name": "number-catcher-game-game",
+    "repo_name": "number-catcher-game",
     "game_name": "Number Catcher Game",
     "category": "puzzle",
     "tags": [
@@ -6595,7 +6595,7 @@
   },
   {
     "slug": "memory-cards-game",
-    "repo_name": "memory-cards-game-game",
+    "repo_name": "memory-cards-game",
     "game_name": "Memory Cards Game",
     "category": "card",
     "tags": [
@@ -6617,7 +6617,7 @@
   },
   {
     "slug": "tower-defence-game",
-    "repo_name": "tower-defence-game-game",
+    "repo_name": "tower-defence-game",
     "game_name": "Tower Defence Game",
     "category": "shooting",
     "tags": [
@@ -6628,7 +6628,7 @@
   },
   {
     "slug": "synonym-typing-game",
-    "repo_name": "synonym-typing-game-game",
+    "repo_name": "synonym-typing-game",
     "game_name": "Synonym Typing Game",
     "category": "word",
     "tags": [
@@ -6751,7 +6751,7 @@
   },
   {
     "slug": "block-game",
-    "repo_name": "block-game-game",
+    "repo_name": "block-game",
     "game_name": "Block Game",
     "category": "arcade",
     "tags": [
@@ -6773,7 +6773,7 @@
   },
   {
     "slug": "shell-game",
-    "repo_name": "shell-game-game",
+    "repo_name": "shell-game",
     "game_name": "Shell Game",
     "category": "puzzle",
     "tags": [
@@ -6839,7 +6839,7 @@
   },
   {
     "slug": "riddle-game",
-    "repo_name": "riddle-game-game",
+    "repo_name": "riddle-game",
     "game_name": "Riddle Game",
     "category": "word",
     "tags": [
@@ -6861,7 +6861,7 @@
   },
   {
     "slug": "avoider-game",
-    "repo_name": "avoider-game-game",
+    "repo_name": "avoider-game",
     "game_name": "Avoider Game",
     "category": "running",
     "tags": [
@@ -6927,7 +6927,7 @@
   },
   {
     "slug": "ai-chess-game",
-    "repo_name": "ai-chess-game-game",
+    "repo_name": "ai-chess-game",
     "game_name": "AI Chess Game",
     "category": "puzzle",
     "tags": [
@@ -7027,7 +7027,7 @@
   },
   {
     "slug": "drop-dash-game",
-    "repo_name": "drop-dash-game-game",
+    "repo_name": "drop-dash-game",
     "game_name": "Drop Dash Game",
     "category": "running",
     "tags": [
@@ -7161,7 +7161,7 @@
   },
   {
     "slug": "anagram-word-game",
-    "repo_name": "anagram-word-game-game",
+    "repo_name": "anagram-word-game",
     "game_name": "Anagram Word Game",
     "category": "word",
     "tags": [
@@ -7183,7 +7183,7 @@
   },
   {
     "slug": "fidget-spinner-game",
-    "repo_name": "fidget-spinner-game-game",
+    "repo_name": "fidget-spinner-game",
     "game_name": "Fidget Spinner Game",
     "category": "clicker",
     "tags": [
@@ -7194,7 +7194,7 @@
   },
   {
     "slug": "fruit-catching-game",
-    "repo_name": "fruit-catching-game-game",
+    "repo_name": "fruit-catching-game",
     "game_name": "Fruit Catching Game",
     "category": "running",
     "tags": [
@@ -7262,7 +7262,7 @@
   },
   {
     "slug": "emoji-puzzle-game",
-    "repo_name": "emoji-puzzle-game-game",
+    "repo_name": "emoji-puzzle-game",
     "game_name": "Emoji Puzzle Game",
     "category": "puzzle",
     "tags": [
@@ -7274,7 +7274,7 @@
   },
   {
     "slug": "maths-sprint-game",
-    "repo_name": "maths-sprint-game-game",
+    "repo_name": "maths-sprint-game",
     "game_name": "Maths Sprint Game",
     "category": "puzzle",
     "tags": [
@@ -7286,7 +7286,7 @@
   },
   {
     "slug": "fifteen-puzzle-game",
-    "repo_name": "fifteen-puzzle-game-game",
+    "repo_name": "fifteen-puzzle-game",
     "game_name": "Fifteen Puzzle Game",
     "category": "puzzle",
     "tags": [
@@ -7310,7 +7310,7 @@
   },
   {
     "slug": "number-guessing-game",
-    "repo_name": "number-guessing-game-game",
+    "repo_name": "number-guessing-game",
     "game_name": "Number Guessing Game",
     "category": "puzzle",
     "tags": [
@@ -7487,7 +7487,7 @@
   },
   {
     "slug": "pig-game",
-    "repo_name": "pig-game-game",
+    "repo_name": "pig-game",
     "game_name": "Pig Game",
     "category": "arcade",
     "tags": [
@@ -7531,7 +7531,7 @@
   },
   {
     "slug": "bird-game",
-    "repo_name": "bird-game-game",
+    "repo_name": "bird-game",
     "game_name": "Bird Game",
     "category": "arcade",
     "tags": [
@@ -7564,7 +7564,7 @@
   },
   {
     "slug": "dice-game",
-    "repo_name": "dice-game-game",
+    "repo_name": "dice-game",
     "game_name": "Dice Game",
     "category": "arcade",
     "tags": [
@@ -7630,7 +7630,7 @@
   },
   {
     "slug": "ludo-game",
-    "repo_name": "ludo-game-game",
+    "repo_name": "ludo-game",
     "game_name": "Ludo Game",
     "category": "arcade",
     "tags": [
@@ -7685,7 +7685,7 @@
   },
   {
     "slug": "atlas-game",
-    "repo_name": "atlas-game-game",
+    "repo_name": "atlas-game",
     "game_name": "Atlas Game",
     "category": "arcade",
     "tags": [
@@ -7718,7 +7718,7 @@
   },
   {
     "slug": "brain-game",
-    "repo_name": "brain-game-game",
+    "repo_name": "brain-game",
     "game_name": "Brain Game",
     "category": "arcade",
     "tags": [
@@ -7740,7 +7740,7 @@
   },
   {
     "slug": "fight-game",
-    "repo_name": "fight-game-game",
+    "repo_name": "fight-game",
     "game_name": "Fight Game",
     "category": "arcade",
     "tags": [
@@ -7773,7 +7773,7 @@
   },
   {
     "slug": "mr-fake-game",
-    "repo_name": "mr-fake-game-game",
+    "repo_name": "mr-fake-game",
     "game_name": "Mrfakegame",
     "category": "arcade",
     "tags": [
@@ -7784,7 +7784,7 @@
   },
   {
     "slug": "3d-box-game",
-    "repo_name": "3d-box-game-game",
+    "repo_name": "3d-box-game",
     "game_name": "3D Box Game",
     "category": "arcade",
     "tags": [
@@ -7872,7 +7872,7 @@
   },
   {
     "slug": "flames-game",
-    "repo_name": "flames-game-game",
+    "repo_name": "flames-game",
     "game_name": "Flames Game",
     "category": "arcade",
     "tags": [
@@ -7982,7 +7982,7 @@
   },
   {
     "slug": "dot-box-game",
-    "repo_name": "dot-box-game-game",
+    "repo_name": "dot-box-game",
     "game_name": "Dot Box Game",
     "category": "arcade",
     "tags": [
@@ -8026,7 +8026,7 @@
   },
   {
     "slug": "aqua-sort-game",
-    "repo_name": "aqua-sort-game-game",
+    "repo_name": "aqua-sort-game",
     "game_name": "Aquasort Game",
     "category": "arcade",
     "tags": [
@@ -8070,7 +8070,7 @@
   },
   {
     "slug": "dsa-quiz-game",
-    "repo_name": "dsa-quiz-game-game",
+    "repo_name": "dsa-quiz-game",
     "game_name": "DSA Quiz Game",
     "category": "arcade",
     "tags": [
@@ -8092,7 +8092,7 @@
   },
   {
     "slug": "hexsweep-game",
-    "repo_name": "hexsweep-game-game",
+    "repo_name": "hexsweep-game",
     "game_name": "Hexsweep Game",
     "category": "arcade",
     "tags": [
@@ -8169,7 +8169,7 @@
   },
   {
     "slug": "platform-game",
-    "repo_name": "platform-game-game",
+    "repo_name": "platform-game",
     "game_name": "Platform Game",
     "category": "arcade",
     "tags": [
@@ -8224,7 +8224,7 @@
   },
   {
     "slug": "ball-fall-game",
-    "repo_name": "ball-fall-game-game",
+    "repo_name": "ball-fall-game",
     "game_name": "Ball Fall Game",
     "category": "arcade",
     "tags": [
@@ -8356,7 +8356,7 @@
   },
   {
     "slug": "box-in-air-game",
-    "repo_name": "box-in-air-game-game",
+    "repo_name": "box-in-air-game",
     "game_name": "Box In Air Game",
     "category": "arcade",
     "tags": [
