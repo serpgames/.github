@@ -1,0 +1,199 @@
+name: Create Next Game Repositories
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "How many missing repos to include in this batch"
+        required: false
+        default: "5"
+        type: string
+      dry_run:
+        description: "Preview the next batch without creating repos"
+        required: false
+        default: true
+        type: boolean
+      create_gists:
+        description: "Also create README gists for repos created in this batch"
+        required: false
+        default: false
+        type: boolean
+      slugs:
+        description: "Optional comma/newline list. Leave blank to use the shared queue."
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    name: Plan next repos
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - name: Check out queue
+        uses: actions/checkout@v4
+
+      - name: Select next missing repos
+        id: plan
+        env:
+          INPUT_LIMIT: ${{ inputs.limit }}
+          INPUT_SLUGS: ${{ inputs.slugs }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          SERPGAMEDEVELOPER_REPO_TOKEN: ${{ secrets.SERPGAMEDEVELOPER_REPO_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const owner = "serpgames";
+          const token = (process.env.SERPGAMEDEVELOPER_REPO_TOKEN || "").trim();
+          if (!token) throw new Error("Missing SERPGAMEDEVELOPER_REPO_TOKEN.");
+
+          const headers = {
+            Accept: "application/vnd.github+json",
+            Authorization: `Bearer ${token}`,
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "serpgames-create-next-game-repos-action",
+          };
+
+          const slugify = (value) => String(value || "")
+            .toLowerCase()
+            .replace(/&/g, " and ")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "")
+            .replace(/-{2,}/g, "-");
+
+          const titleFromSlug = (slug) => String(slug)
+            .split("-")
+            .filter(Boolean)
+            .map((part) => /^[0-9]+$/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1))
+            .join(" ");
+
+          const titleCase = (value) => String(value || "Games")
+            .split(/[-_\s]+/)
+            .filter(Boolean)
+            .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+            .join(" ") || "Games";
+
+          const splitSlugs = (value) => String(value || "")
+            .replace(/\\n/g, "\n")
+            .split(/[\n,]+/)
+            .map((item) => slugify(item))
+            .filter(Boolean);
+
+          async function repoExists(repoName) {
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repoName}`, { headers });
+            if (response.status === 404) return false;
+            if (!response.ok) {
+              const details = await response.text();
+              throw new Error(`Could not check ${owner}/${repoName}: ${response.status} ${details}`);
+            }
+            return true;
+          }
+
+          function normalizeEntry(entry) {
+            const slug = slugify(entry.slug);
+            const repoName = slugify(entry.repo_name || `${slug}-game`);
+            const gameName = String(entry.game_name || titleFromSlug(slug)).trim();
+            const category = titleCase(entry.category || "Games");
+            const tagList = Array.isArray(entry.tags) ? entry.tags : String(entry.tags || "").split(/[|,]/);
+            const tags = tagList.map((tag) => String(tag).trim()).filter(Boolean).map(titleCase).join(", ") || "Browser, Free, Unblocked";
+            const genre = `${String(entry.category || "browser").toLowerCase().replace(/[-_]+/g, " ")} game`;
+            return { slug, repo_name: repoName, game_name: gameName, category, tags, genre };
+          }
+
+          async function main() {
+            const limit = Math.max(1, Math.min(20, Number.parseInt(process.env.INPUT_LIMIT || "5", 10) || 5));
+            const customSlugs = splitSlugs(process.env.INPUT_SLUGS || "");
+            const queue = customSlugs.length
+              ? customSlugs.map((slug) => ({ slug }))
+              : JSON.parse(fs.readFileSync(".github/templates/game-repo-queue.json", "utf8"));
+
+            const seen = new Set();
+            const normalized = queue
+              .map(normalizeEntry)
+              .filter((entry) => {
+                if (!entry.slug || seen.has(entry.repo_name)) return false;
+                seen.add(entry.repo_name);
+                return true;
+              });
+
+            const existing = [];
+            const selected = [];
+            const later = [];
+
+            for (const entry of normalized) {
+              if (await repoExists(entry.repo_name)) {
+                existing.push(entry);
+              } else if (selected.length < limit) {
+                selected.push(entry);
+              } else {
+                later.push(entry);
+              }
+            }
+
+            const matrix = { include: selected };
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `matrix=${JSON.stringify(matrix)}\n`);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `count=${selected.length}\n`);
+
+            const lines = [
+              "## Next game repo batch",
+              "",
+              `- Mode: ${String(process.env.INPUT_DRY_RUN).toLowerCase() === "true" ? "dry run" : "create"}`,
+              `- Existing repos skipped: ${existing.length}`,
+              `- Selected for this batch: ${selected.length}`,
+              `- Remaining after this batch: ${later.length}`,
+              "",
+            ];
+
+            if (selected.length) {
+              lines.push("### Selected", "");
+              for (const entry of selected) {
+                lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
+              }
+              lines.push("");
+            }
+
+            if (later.length) {
+              lines.push("### Next Up After This Batch", "");
+              for (const entry of later.slice(0, 10)) {
+                lines.push(`- ${entry.slug} -> ${entry.repo_name}`);
+              }
+              lines.push("");
+            }
+
+            if (!selected.length) {
+              lines.push("No missing repos found for the selected queue.", "");
+            }
+
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n"));
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+  create-game-repos:
+    name: Create repo ${{ matrix.slug }}
+    needs: plan
+    if: ${{ needs.plan.outputs.count != '0' && !inputs.dry_run }}
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    uses: ./.github/workflows/create-game-repo.yml
+    with:
+      slug: ${{ matrix.slug }}
+      repo_name: ${{ matrix.repo_name }}
+      game_name: ${{ matrix.game_name }}
+      genre: ${{ matrix.genre }}
+      category: ${{ matrix.category }}
+      tags: ${{ matrix.tags }}
+      create_gist: ${{ inputs.create_gists }}
+    secrets: inherit
