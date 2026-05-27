@@ -1,0 +1,361 @@
+name: Create Game Repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      game_name:
+        description: "Display game name, for example Doodle Jump"
+        required: true
+        type: string
+      slug:
+        description: "Canonical SERP Games slug, for example doodle-jump"
+        required: true
+        type: string
+      repo_name:
+        description: "Repo name. Leave blank to use {slug}-game."
+        required: false
+        default: ""
+        type: string
+      genre:
+        description: "SEO genre phrase"
+        required: false
+        default: "browser game"
+        type: string
+      category:
+        description: "README category label"
+        required: false
+        default: "Games"
+        type: string
+      description:
+        description: "One-sentence README overview description"
+        required: false
+        default: ""
+        type: string
+      tags:
+        description: "Comma-separated README tags"
+        required: false
+        default: "Browser, free, unblocked"
+        type: string
+      primary_controls:
+        description: "Primary controls sentence"
+        required: false
+        default: "Keyboard, mouse, or touch controls, depending on the game"
+        type: string
+      how_to_play:
+        description: "Optional newline-separated How to Play bullets"
+        required: false
+        default: ""
+        type: string
+      controls:
+        description: "Optional newline-separated Controls bullets"
+        required: false
+        default: ""
+        type: string
+      tips:
+        description: "Optional newline-separated Tips bullets"
+        required: false
+        default: ""
+        type: string
+      similar_repositories:
+        description: "Optional newline-separated GitHub repos. Supports Title|repo-name."
+        required: false
+        default: ""
+        type: string
+      update_existing:
+        description: "Update README/metadata if the repo already exists"
+        required: false
+        default: true
+        type: boolean
+      verify_play_page:
+        description: "Require the canonical play page to return HTTP 200 before writing"
+        required: false
+        default: true
+        type: boolean
+      create_gist:
+        description: "Create a README gist after the repo is ready"
+        required: false
+        default: false
+        type: boolean
+  workflow_call:
+    inputs:
+      game_name:
+        required: true
+        type: string
+      slug:
+        required: true
+        type: string
+      repo_name:
+        required: false
+        default: ""
+        type: string
+      genre:
+        required: false
+        default: "browser game"
+        type: string
+      category:
+        required: false
+        default: "Games"
+        type: string
+      description:
+        required: false
+        default: ""
+        type: string
+      tags:
+        required: false
+        default: "Browser, free, unblocked"
+        type: string
+      primary_controls:
+        required: false
+        default: "Keyboard, mouse, or touch controls, depending on the game"
+        type: string
+      how_to_play:
+        required: false
+        default: ""
+        type: string
+      controls:
+        required: false
+        default: ""
+        type: string
+      tips:
+        required: false
+        default: ""
+        type: string
+      similar_repositories:
+        required: false
+        default: ""
+        type: string
+      update_existing:
+        required: false
+        default: true
+        type: boolean
+      verify_play_page:
+        required: false
+        default: true
+        type: boolean
+      create_gist:
+        required: false
+        default: false
+        type: boolean
+    secrets:
+      SERPGAMEDEVELOPER_REPO_TOKEN:
+        required: true
+      SERPGAMEDEVELOPER_GIST_TOKEN:
+        required: false
+    outputs:
+      repository:
+        value: ${{ jobs.create-game-repo.outputs.repository }}
+      repo_url:
+        value: ${{ jobs.create-game-repo.outputs.repo_url }}
+      readme_url:
+        value: ${{ jobs.create-game-repo.outputs.readme_url }}
+      play_url:
+        value: ${{ jobs.create-game-repo.outputs.play_url }}
+
+permissions:
+  contents: read
+
+jobs:
+  create-game-repo:
+    name: Create game repo
+    runs-on: ubuntu-latest
+    outputs:
+      repository: ${{ steps.repo.outputs.repository }}
+      repo_url: ${{ steps.repo.outputs.repo_url }}
+      readme_url: ${{ steps.repo.outputs.readme_url }}
+      play_url: ${{ steps.repo.outputs.play_url }}
+    steps:
+      - name: Check out shared templates
+        uses: actions/checkout@v4
+
+      - name: Create or update repository
+        id: repo
+        env:
+          INPUT_GAME_NAME: ${{ inputs.game_name }}
+          INPUT_SLUG: ${{ inputs.slug }}
+          INPUT_REPO_NAME: ${{ inputs.repo_name }}
+          INPUT_GENRE: ${{ inputs.genre }}
+          INPUT_CATEGORY: ${{ inputs.category }}
+          INPUT_DESCRIPTION: ${{ inputs.description }}
+          INPUT_TAGS: ${{ inputs.tags }}
+          INPUT_PRIMARY_CONTROLS: ${{ inputs.primary_controls }}
+          INPUT_HOW_TO_PLAY: ${{ inputs.how_to_play }}
+          INPUT_CONTROLS: ${{ inputs.controls }}
+          INPUT_TIPS: ${{ inputs.tips }}
+          INPUT_SIMILAR_REPOSITORIES: ${{ inputs.similar_repositories }}
+          INPUT_UPDATE_EXISTING: ${{ inputs.update_existing }}
+          INPUT_VERIFY_PLAY_PAGE: ${{ inputs.verify_play_page }}
+          SERPGAMEDEVELOPER_REPO_TOKEN: ${{ secrets.SERPGAMEDEVELOPER_REPO_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const path = require("path");
+
+          const owner = "serpgames";
+          const token = (process.env.SERPGAMEDEVELOPER_REPO_TOKEN || "").trim();
+          const author = {
+            name: "Ron Cadillac",
+            email: "213859423+serpgamedeveloper@users.noreply.github.com",
+          };
+          const headers = {
+            Accept: "application/vnd.github+json",
+            Authorization: `Bearer ${token}`,
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "serpgames-create-game-repo-action",
+          };
+
+          if (!token) throw new Error("Missing SERPGAMEDEVELOPER_REPO_TOKEN.");
+
+          const input = (name, fallback = "") => String(process.env[name] ?? fallback).trim();
+          const boolInput = (name, fallback) => !["false", "0", "no", "off"].includes(input(name, String(fallback)).toLowerCase());
+          const slugify = (value) => String(value || "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").replace(/-{2,}/g, "-");
+          const repoPath = (filePath) => filePath.split("/").map(encodeURIComponent).join("/");
+          const splitList = (value) => String(value || "").replace(/\\n/g, "\n").split(/\n|,(?=\s*https?:\/\/github\.com\/serpgames\/)|,(?=\s*[A-Za-z0-9 ._-]+\|)/).map((item) => item.trim()).filter(Boolean);
+          const bullets = (value, fallback) => (splitList(value).length ? splitList(value) : fallback).map((item) => item.replace(/^[-*]\s+/, "").trim()).filter(Boolean).map((item) => `- ${item}`).join("\n");
+          const tableValue = (value) => String(value || "").replace(/\|/g, "\\|").replace(/\n/g, " ");
+
+          async function request(url, options = {}, allowMissing = false) {
+            const response = await fetch(url, { ...options, headers: { ...headers, ...(options.headers || {}) } });
+            const text = await response.text();
+            let body = text;
+            if (text) {
+              try { body = JSON.parse(text); } catch {}
+            }
+            if (!response.ok && !(allowMissing && response.status === 404)) {
+              const detail = typeof body === "string" ? body : JSON.stringify(body);
+              throw new Error(`${response.status} ${response.statusText} ${url} ${detail}`);
+            }
+            return { ok: response.ok, status: response.status, body };
+          }
+
+          async function json(url, options = {}) {
+            return (await request(url, options)).body;
+          }
+
+          async function verifyPlayPage(playUrl) {
+            let response = await fetch(playUrl, { method: "HEAD", redirect: "follow" });
+            if ([403, 405].includes(response.status)) response = await fetch(playUrl, { method: "GET", redirect: "follow" });
+            if (response.status !== 200) throw new Error(`${playUrl} returned HTTP ${response.status}`);
+          }
+
+          function titleFromRepo(repo) {
+            return repo.replace(/^https:\/\/github\.com\/serpgames\//, "").replace(/\/$/, "").replace(/-game$/, "").split("-").filter(Boolean).map((part) => part[0].toUpperCase() + part.slice(1)).join(" ");
+          }
+
+          function similarGames(raw, repoName) {
+            const defaults = ["level-devil-game", "traffic-escape-game", "crossy-road-game", "tunnel-rush-game", "doodle-jump-game", "flappy-bird-game", "cookie-clicker-game"].filter((repo) => repo !== repoName);
+            const entries = splitList(raw).length ? splitList(raw) : defaults.slice(0, 4);
+            return entries.map((entry) => {
+              const parts = entry.split("|").map((part) => part.trim()).filter(Boolean);
+              let title = parts.length > 1 ? parts[0] : titleFromRepo(parts[0] || entry);
+              let repo = parts.length > 1 ? parts[1] : (parts[0] || entry);
+              repo = repo.replace(/^https:\/\/github\.com\/serpgames\//, "").replace(/\/$/, "");
+              if (!/^[A-Za-z0-9_.-]+$/.test(repo)) throw new Error(`Invalid similar repository: ${repo}`);
+              return `- [${title}](https://github.com/serpgames/${repo})`;
+            }).join("\n");
+          }
+
+          function topics(slug) {
+            return ["{s}", "{s}-game", "{s}-unblocked", "{s}-online", "{s}-free", "play-{s}", "play-{s}-game", "play-{s}-online", "play-{s}-game-online", "{s}-game-online", "{s}-online-game", "{s}-free-online", "{s}-online-free", "{s}-free-unblocked", "{s}-unblocked-game", "{s}-browser-game", "{s}-html5-game", "{s}-no-download", "free-{s}-game", "online-{s}-game"]
+              .map((pattern) => slugify(pattern.replace("{s}", slug))).filter((topic) => /^[a-z0-9][a-z0-9-]{0,49}$/.test(topic)).slice(0, 20);
+          }
+
+          function renderReadme(data) {
+            const template = fs.readFileSync(path.join(process.cwd(), ".github/templates/game-readme.md"), "utf8");
+            const fallbackHowTo = [`Open the canonical ${data.gameName} play page on SERP Games.`, "Start the browser game with no download or install.", "Use the listed controls to play the game.", "Replay to improve your score, timing, or route."];
+            const fallbackTips = ["Start with a short practice run to learn the timing.", "Keep the game page bookmarked for quick access.", "Use full-screen mode if the game supports it.", "Try again quickly after each mistake to build consistency."];
+            let readme = template
+              .replaceAll("{Game Name}", data.gameName)
+              .replaceAll("{slug}", data.slug)
+              .replaceAll("{genre}", tableValue(data.genre))
+              .replaceAll("{category}", tableValue(data.category))
+              .replaceAll("{tags}", tableValue(data.tags))
+              .replaceAll("{primary_controls}", tableValue(data.primaryControls))
+              .replaceAll("{description}", data.description)
+              .replaceAll("{how_to_play_bullets}", bullets(data.howToPlay, fallbackHowTo))
+              .replaceAll("{controls_bullets}", bullets(data.controls, [data.primaryControls]))
+              .replaceAll("{tips_bullets}", bullets(data.tips, fallbackTips));
+            readme = readme.replace(/## Similar Games\n\n[\s\S]*?\n## Play Now/, `## Similar Games\n\n${similarGames(data.similar, data.repoName)}\n\n## Play Now`);
+            return `${readme.trimEnd()}\n`;
+          }
+
+          function renderFunding(slug) {
+            return `${fs.readFileSync(path.join(process.cwd(), ".github/templates/game-funding.yml"), "utf8").replaceAll("{slug}", slug).trimEnd()}\n`;
+          }
+
+          async function putFile(repo, filePath, content, message) {
+            const existing = await request(`https://api.github.com/repos/${owner}/${repo}/contents/${repoPath(filePath)}`, {}, true);
+            const payload = {
+              message,
+              content: Buffer.isBuffer(content) ? content.toString("base64") : Buffer.from(content, "utf8").toString("base64"),
+              author,
+              committer: author,
+            };
+            if (existing.ok) payload.sha = existing.body.sha;
+            await json(`https://api.github.com/repos/${owner}/${repo}/contents/${repoPath(filePath)}`, { method: "PUT", body: JSON.stringify(payload) });
+          }
+
+          async function main() {
+            const gameName = input("INPUT_GAME_NAME");
+            if (!gameName) throw new Error("game_name is required.");
+            const slug = slugify(input("INPUT_SLUG"));
+            if (!slug) throw new Error("slug is required.");
+            const repoName = slugify(input("INPUT_REPO_NAME") || `${slug}-game`);
+            if (!/^[a-z0-9][a-z0-9.-]*[a-z0-9]$/.test(repoName)) throw new Error(`Invalid repo_name: ${repoName}`);
+
+            const playUrl = `https://games.serp.co/games/${slug}/`;
+            const repoDescription = `Play ${gameName} online free unblocked on SERP Games.`;
+            if (boolInput("INPUT_VERIFY_PLAY_PAGE", true)) await verifyPlayPage(playUrl);
+
+            const repoCheck = await request(`https://api.github.com/repos/${owner}/${repoName}`, {}, true);
+            if (!repoCheck.ok) {
+              await json(`https://api.github.com/orgs/${owner}/repos`, { method: "POST", body: JSON.stringify({ name: repoName, private: false, description: repoDescription, homepage: playUrl, has_issues: false, has_projects: false, has_wiki: false }) });
+            } else if (!boolInput("INPUT_UPDATE_EXISTING", true)) {
+              throw new Error(`${owner}/${repoName} already exists and update_existing is false.`);
+            }
+
+            await json(`https://api.github.com/repos/${owner}/${repoName}`, { method: "PATCH", body: JSON.stringify({ description: repoDescription, homepage: playUrl, has_issues: false, has_projects: false, has_wiki: false, has_sponsorships_enabled: true }) }).catch(async () => {
+              await json(`https://api.github.com/repos/${owner}/${repoName}`, { method: "PATCH", body: JSON.stringify({ description: repoDescription, homepage: playUrl, has_issues: false, has_projects: false, has_wiki: false }) });
+            });
+
+            const data = {
+              gameName,
+              slug,
+              repoName,
+              genre: input("INPUT_GENRE", "browser game") || "browser game",
+              category: input("INPUT_CATEGORY", "Games") || "Games",
+              description: input("INPUT_DESCRIPTION") || `${gameName} is a free online browser game you can play directly in your browser.`,
+              tags: input("INPUT_TAGS", "Browser, free, unblocked") || "Browser, free, unblocked",
+              primaryControls: input("INPUT_PRIMARY_CONTROLS", "Keyboard, mouse, or touch controls, depending on the game") || "Keyboard, mouse, or touch controls, depending on the game",
+              howToPlay: process.env.INPUT_HOW_TO_PLAY || "",
+              controls: process.env.INPUT_CONTROLS || "",
+              tips: process.env.INPUT_TIPS || "",
+              similar: process.env.INPUT_SIMILAR_REPOSITORIES || "",
+            };
+
+            await putFile(repoName, "README.md", renderReadme(data), `Update ${gameName} README lander`);
+            await putFile(repoName, "start-game.gif", fs.readFileSync(path.join(process.cwd(), ".github/templates/start-game.gif")), "Update shared start game CTA asset");
+            await putFile(repoName, ".github/FUNDING.yml", renderFunding(slug), "Update funding links");
+            await json(`https://api.github.com/repos/${owner}/${repoName}/topics`, { method: "PUT", body: JSON.stringify({ names: topics(slug) }) });
+
+            const repo = await json(`https://api.github.com/repos/${owner}/${repoName}`);
+            const readmeUrl = `https://github.com/${owner}/${repoName}#readme`;
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, [`repository=${owner}/${repoName}`, `repo_url=${repo.html_url}`, `readme_url=${readmeUrl}`, `play_url=${playUrl}`].join("\n") + "\n");
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, [`## Game repository ready`, "", `- Repository: ${repo.html_url}`, `- README: ${readmeUrl}`, `- Play page: ${playUrl}`, `- Commit author: ${author.name} <${author.email}>`, ""].join("\n"));
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+  create-readme-gist:
+    name: Create README gist
+    if: ${{ inputs.create_gist }}
+    needs: create-game-repo
+    uses: ./.github/workflows/create-readme-gist.yml
+    with:
+      repository: ${{ needs.create-game-repo.outputs.repository }}
+      public: true
+    secrets:
+      SERPGAMEDEVELOPER_GIST_TOKEN: ${{ secrets.SERPGAMEDEVELOPER_GIST_TOKEN }}
