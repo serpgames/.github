@@ -1,0 +1,261 @@
+name: Create README Gist
+
+on:
+  workflow_dispatch:
+    inputs:
+      repository:
+        description: "Repo name in the serpgames org, or serpgames/repo"
+        required: true
+        type: string
+      ref:
+        description: "Branch, tag, or SHA to read from. Leave blank to use the repo default branch."
+        required: false
+        default: ""
+        type: string
+      public:
+        description: "Create a public gist"
+        required: false
+        default: true
+        type: boolean
+      gist_description:
+        description: "Optional gist title/description. Defaults to the README H1."
+        required: false
+        default: ""
+        type: string
+      gist_id:
+        description: "Optional existing gist ID or URL to update instead of creating a new gist."
+        required: false
+        default: ""
+        type: string
+  workflow_call:
+    inputs:
+      repository:
+        description: "Repo name in the serpgames org, or serpgames/repo"
+        required: true
+        type: string
+      ref:
+        description: "Branch, tag, or SHA to read from. Leave blank to use the repo default branch."
+        required: false
+        default: ""
+        type: string
+      public:
+        description: "Create a public gist"
+        required: false
+        default: true
+        type: boolean
+      gist_description:
+        description: "Optional gist title/description. Defaults to the README H1."
+        required: false
+        default: ""
+        type: string
+      gist_id:
+        description: "Optional existing gist ID or URL to update instead of creating a new gist."
+        required: false
+        default: ""
+        type: string
+    secrets:
+      SERPGAMEDEVELOPER_GIST_TOKEN:
+        description: "PAT from the serpgamedeveloper account with gist write permission"
+        required: true
+    outputs:
+      gist_url:
+        description: "Created or updated gist URL"
+        value: ${{ jobs.create-readme-gist.outputs.gist_url }}
+      gist_id:
+        description: "Created or updated gist ID"
+        value: ${{ jobs.create-readme-gist.outputs.gist_id }}
+
+permissions:
+  contents: read
+
+jobs:
+  create-readme-gist:
+    name: Create README gist
+    runs-on: ubuntu-latest
+    outputs:
+      gist_url: ${{ steps.create.outputs.gist_url }}
+      gist_id: ${{ steps.create.outputs.gist_id }}
+    steps:
+      - name: Create gist from repository README
+        id: create
+        shell: bash
+        env:
+          INPUT_REPOSITORY: ${{ inputs.repository }}
+          INPUT_REF: ${{ inputs.ref }}
+          GIST_PUBLIC: ${{ inputs.public }}
+          GIST_DESCRIPTION: ${{ inputs.gist_description }}
+          INPUT_GIST_ID: ${{ inputs.gist_id }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SERPGAMEDEVELOPER_GIST_TOKEN: ${{ secrets.SERPGAMEDEVELOPER_GIST_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          async function main() {
+            const apiVersion = "2022-11-28";
+            const readToken = process.env.GITHUB_TOKEN || "";
+            const gistToken = process.env.SERPGAMEDEVELOPER_GIST_TOKEN || "";
+
+            if (!gistToken) {
+              throw new Error("Missing SERPGAMEDEVELOPER_GIST_TOKEN secret. Add a serpgamedeveloper PAT with gist write permission.");
+            }
+
+            const rawRepository = (process.env.INPUT_REPOSITORY || "").trim();
+            if (!rawRepository) {
+              throw new Error("The repository input is required.");
+            }
+
+            const parts = rawRepository.includes("/")
+              ? rawRepository.split("/")
+              : ["serpgames", rawRepository];
+
+            if (parts.length !== 2 || parts[0] !== "serpgames") {
+              throw new Error("repository must be a repo name in serpgames, or serpgames/repo-name.");
+            }
+
+            const [owner, repo] = parts;
+            if (!/^[A-Za-z0-9_.-]+$/.test(repo)) {
+              throw new Error(`Invalid repository name: ${repo}`);
+            }
+
+            const githubHeaders = {
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": apiVersion,
+              "User-Agent": "serpgames-readme-gist-action",
+            };
+            if (readToken) {
+              githubHeaders.Authorization = `Bearer ${readToken}`;
+            }
+
+            async function requestJson(url, options = {}) {
+              const response = await fetch(url, {
+                ...options,
+                headers: {
+                  ...githubHeaders,
+                  ...(options.headers || {}),
+                },
+              });
+              const text = await response.text();
+              let body = null;
+              if (text) {
+                try {
+                  body = JSON.parse(text);
+                } catch {
+                  body = text;
+                }
+              }
+              if (!response.ok) {
+                const details = typeof body === "string" ? body : JSON.stringify(body);
+                throw new Error(`GitHub API request failed: ${response.status} ${response.statusText} ${url} ${details}`);
+              }
+              return body;
+            }
+
+            function cleanReadmeForGist(markdown) {
+              return markdown
+                .replace(/\r\n/g, "\n")
+                .replace(/\\n/g, "\n")
+                .replace(/^\[!\[START GAME\]\(\.\/start-game\.(?:gif|svg)\)\]\(([^)]+)\)[^\S\r\n]*$/m, "> **[START GAME]($1)**")
+                .trimEnd() + "\n";
+            }
+
+            function readTitle(markdown, fallback) {
+              const h1 = markdown.match(/^#\s+(.+?)\s*$/m);
+              return h1 ? h1[1].trim() : fallback;
+            }
+
+            function normalizeGistId(input) {
+              const value = (input || "").trim();
+              if (!value) return "";
+              const match = value.match(/([0-9a-f]{20,})$/i);
+              return match ? match[1] : value;
+            }
+
+            const repoInfo = await requestJson(`https://api.github.com/repos/${owner}/${repo}`);
+            const requestedRef = (process.env.INPUT_REF || "").trim();
+            const ref = requestedRef || repoInfo.default_branch;
+            const readme = await requestJson(
+              `https://api.github.com/repos/${owner}/${repo}/readme?ref=${encodeURIComponent(ref)}`
+            );
+
+            if (readme.encoding !== "base64") {
+              throw new Error(`Unsupported README encoding: ${readme.encoding}`);
+            }
+
+            const rawReadmeMarkdown = Buffer.from(readme.content.replace(/\n/g, ""), "base64").toString("utf8");
+            const readmeMarkdown = cleanReadmeForGist(rawReadmeMarkdown);
+            const title = (process.env.GIST_DESCRIPTION || "").trim()
+              || readTitle(readmeMarkdown, `Play ${repo.replace(/-game$/, "").replace(/-/g, " ")} Game Online - Free Unblocked`);
+            const gistPublic = String(process.env.GIST_PUBLIC || "true").toLowerCase() !== "false";
+            const existingGistId = normalizeGistId(process.env.INPUT_GIST_ID);
+
+            let gist;
+            if (existingGistId) {
+              const existingGist = await requestJson(`https://api.github.com/gists/${existingGistId}`, {
+                headers: {
+                  Authorization: `Bearer ${gistToken}`,
+                },
+              });
+              const files = {};
+              for (const filename of Object.keys(existingGist.files || {})) {
+                files[filename] = null;
+              }
+              const firstMarkdownFile = Object.keys(existingGist.files || {}).find((filename) => filename.toLowerCase().endsWith(".md"));
+              files[firstMarkdownFile || "README.md"] = {
+                filename: "README.md",
+                content: readmeMarkdown,
+              };
+              gist = await requestJson(`https://api.github.com/gists/${existingGistId}`, {
+                method: "PATCH",
+                headers: {
+                  Authorization: `Bearer ${gistToken}`,
+                },
+                body: JSON.stringify({
+                  description: title,
+                  files,
+                }),
+              });
+            } else {
+              gist = await requestJson("https://api.github.com/gists", {
+                method: "POST",
+                headers: {
+                  Authorization: `Bearer ${gistToken}`,
+                },
+                body: JSON.stringify({
+                  description: title,
+                  public: gistPublic,
+                  files: {
+                    "README.md": {
+                      content: readmeMarkdown,
+                    },
+                  },
+                }),
+              });
+            }
+
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `gist_url=${gist.html_url}\n`);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `gist_id=${gist.id}\n`);
+
+            if (process.env.GITHUB_STEP_SUMMARY) {
+              fs.appendFileSync(
+                process.env.GITHUB_STEP_SUMMARY,
+                [
+                  existingGistId ? "## README gist updated" : "## README gist created",
+                  "",
+                  `- Title: ${title}`,
+                  `- Repository: ${owner}/${repo}`,
+                  `- Ref: ${ref}`,
+                  `- README: ${readme.html_url}`,
+                  `- Gist: ${gist.html_url}`,
+                  `- Public: ${gist.public}`,
+                  "",
+                ].join("\n")
+              );
+            }
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
