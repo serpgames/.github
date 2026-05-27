@@ -80,6 +80,8 @@ jobs:
           node <<'NODE'
           const fs = require("fs");
 
+          async function main() {
+
           const apiVersion = "2022-11-28";
           const readToken = process.env.GITHUB_TOKEN || "";
           const gistToken = process.env.SERPGAMEDEVELOPER_GIST_TOKEN || "";
@@ -205,4 +207,10 @@ jobs:
               ].join("\n")
             );
           }
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
           NODE
